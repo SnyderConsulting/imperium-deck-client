@@ -53,6 +53,9 @@ CMS_DIR = PROJECT_ROOT / "cms_projects"
 CMS_DIR.mkdir(parents=True, exist_ok=True)
 REMOTE_DECK_BASE_URL = os.environ.get("SDR_REMOTE_DECK_BASE_URL", "").strip().rstrip("/")
 REMOTE_CMS_PROXY_ENABLED = bool(REMOTE_DECK_BASE_URL)
+REMOTE_PROFILE_SOURCE_URL = (
+    os.environ.get("SDR_PROFILE_SOURCE_URL", "https://www.imperium-gaming.com").strip().rstrip("/")
+)
 CONTROL_KEYS = {
     "A",
     "B",
@@ -115,6 +118,12 @@ async def _remote_api_post(path: str, payload: dict[str, Any], timeout: float = 
     return await asyncio.to_thread(_http_json, "POST", f"{REMOTE_DECK_BASE_URL}{path}", payload, timeout)
 
 
+async def _remote_profile_get(path: str, timeout: float = 8.0) -> dict[str, Any]:
+    if not REMOTE_PROFILE_SOURCE_URL:
+        raise HTTPException(status_code=400, detail="Profile source URL is not configured")
+    return await asyncio.to_thread(_http_json, "GET", f"{REMOTE_PROFILE_SOURCE_URL}{path}", None, timeout)
+
+
 class StartRequest(BaseModel):
     device_paths: list[str] = Field(default_factory=list)
 
@@ -134,6 +143,10 @@ class CmsSceneLearnRequest(BaseModel):
 
 class CmsDetectSceneRequest(BaseModel):
     timeout_seconds: float = Field(default=8.0, ge=1.0, le=30.0)
+
+
+class CmsSyncPullRequest(BaseModel):
+    apply: bool = True
 
 
 @dataclass
@@ -1475,7 +1488,7 @@ def _scene_score(curr: dict[str, Any], ref: dict[str, Any]) -> tuple[float, dict
 
 @app.get("/cms")
 async def cms_index() -> FileResponse:
-    return FileResponse(WEB_DIR / "cms.html")
+    return FileResponse(WEB_DIR / "index.html")
 
 
 @app.get("/api/cms/projects")
@@ -1494,6 +1507,55 @@ async def cms_list_projects() -> JSONResponse:
         except Exception:
             continue
     return JSONResponse({"projects": projects})
+
+
+@app.get("/api/sync/config")
+async def sync_config() -> JSONResponse:
+    return JSONResponse({"profile_source_url": REMOTE_PROFILE_SOURCE_URL})
+
+
+@app.get("/api/sync/projects")
+async def sync_list_projects() -> JSONResponse:
+    try:
+        out = await _remote_profile_get("/api/cms/projects", timeout=10.0)
+    except HTTPException as exc:
+        raise HTTPException(status_code=502, detail=f"Remote project list failed: {exc.detail}") from exc
+    projects = out.get("projects", [])
+    if not isinstance(projects, list):
+        projects = []
+    return JSONResponse({"projects": projects, "source": REMOTE_PROFILE_SOURCE_URL})
+
+
+@app.post("/api/sync/projects/{project_id}/pull")
+async def sync_pull_project(project_id: str, body: CmsSyncPullRequest) -> JSONResponse:
+    path = _cms_project_path(project_id)
+    try:
+        out = await _remote_profile_get(f"/api/cms/projects/{project_id}", timeout=15.0)
+    except HTTPException as exc:
+        raise HTTPException(status_code=502, detail=f"Remote project pull failed: {exc.detail}") from exc
+    data = out.get("data")
+    if not isinstance(data, dict):
+        raise HTTPException(status_code=502, detail="Remote project payload missing data object")
+
+    data.setdefault("schema_version", 1)
+    data["updated_at"] = time.time()
+    path.write_text(json.dumps(data, indent=2))
+
+    applied = False
+    if body.apply:
+        await remapper.apply_project(project_id=project_id, data=data)
+        applied = True
+
+    return JSONResponse(
+        {
+            "ok": True,
+            "project_id": project_id,
+            "saved_local": True,
+            "applied": applied,
+            "source": REMOTE_PROFILE_SOURCE_URL,
+            "remapper": await remapper.status(),
+        }
+    )
 
 
 @app.get("/api/cms/projects/{project_id}")

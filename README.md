@@ -68,6 +68,34 @@ pip install -r requirements.txt
 uvicorn app.server:app --host 0.0.0.0 --port 8765
 ```
 
+## Cloud Profile Source
+
+Deck client pulls cloud profiles from:
+
+- `SDR_PROFILE_SOURCE_URL` (default: `https://www.imperium-gaming.com`)
+
+Example:
+
+```bash
+SDR_PROFILE_SOURCE_URL=https://www.imperium-gaming.com \
+uvicorn app.server:app --host 0.0.0.0 --port 8765
+```
+
+React UI endpoints used for sync:
+
+- `GET /api/sync/projects`
+- `POST /api/sync/projects/{project_id}/pull` (saves locally and applies)
+
+## React UI Development
+
+The client UI is a React app in `frontend/`, built into `web/` for runtime serving.
+
+```bash
+cd frontend
+npm install
+npm run build
+```
+
 ## API Endpoint
 
 By default the service runs on:
