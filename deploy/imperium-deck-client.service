@@ -1,0 +1,13 @@
+[Unit]
+Description=Imperium Deck Client
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/apps/imperium-deck-client
+ExecStart=%h/apps/imperium-deck-client/.venv/bin/uvicorn app.server:app --host 0.0.0.0 --port 8765
+Restart=always
+RestartSec=2
+
+[Install]
+WantedBy=default.target
