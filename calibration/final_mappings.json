@@ -1,0 +1,222 @@
+{
+  "generated_at": "2026-02-19T02:50:21Z",
+  "device": "/dev/hidraw1",
+  "source": "app.server.decode_steamdeck_hid_report + EV_ABS hat synthesis",
+  "notes": [
+    "This mapping is stable and used by the live viewer backend.",
+    "D-pad is decoded from dedicated D-pad bits and EV_ABS hat synthesis; noisy fallback hat nibble decode was removed.",
+    "Controls not observed in the latest passive capture are marked pending_validation, not unknown."
+  ],
+  "controls": [
+    {
+      "label": "A Button",
+      "signal": "A",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "B Button",
+      "signal": "B",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "X Button",
+      "signal": "X",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Y Button",
+      "signal": "Y",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "D-Pad Up",
+      "signal": "DPAD_UP",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "D-Pad Right",
+      "signal": "DPAD_RIGHT",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "D-Pad Down",
+      "signal": "DPAD_DOWN",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "D-Pad Left",
+      "signal": "DPAD_LEFT",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Shoulder",
+      "signal": "L1",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Shoulder",
+      "signal": "R1",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Trigger Click",
+      "signal": "L2_BTN",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Trigger Click",
+      "signal": "R2_BTN",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Stick Click",
+      "signal": "L3",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Stick Click",
+      "signal": "R3",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Rear Left Upper Paddle",
+      "signal": "L4",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Rear Left Lower Paddle",
+      "signal": "L5",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Rear Right Upper Paddle",
+      "signal": "R4",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Rear Right Lower Paddle",
+      "signal": "R5",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Menu Button",
+      "signal": "MENU",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Steam Button",
+      "signal": "STEAM",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Quick Access Button",
+      "signal": "QAM",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Touchpad Touch",
+      "signal": "LEFT_PAD_TOUCH",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Touchpad Touch",
+      "signal": "RIGHT_PAD_TOUCH",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Touchpad Click",
+      "signal": "LEFT_PAD_PRESS",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Touchpad Click",
+      "signal": "RIGHT_PAD_PRESS",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Stick Touch",
+      "signal": "LEFT_STICK_TOUCH",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Stick Touch",
+      "signal": "RIGHT_STICK_TOUCH",
+      "kind": "button",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Stick X",
+      "signal": "LEFT_STICK_X",
+      "kind": "axis",
+      "status": "observed"
+    },
+    {
+      "label": "Left Stick Y",
+      "signal": "LEFT_STICK_Y",
+      "kind": "axis",
+      "status": "observed"
+    },
+    {
+      "label": "Right Stick X",
+      "signal": "RIGHT_STICK_X",
+      "kind": "axis",
+      "status": "observed"
+    },
+    {
+      "label": "Right Stick Y",
+      "signal": "RIGHT_STICK_Y",
+      "kind": "axis",
+      "status": "observed"
+    },
+    {
+      "label": "Left Touchpad X",
+      "signal": "LEFT_PAD_X",
+      "kind": "axis",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Left Touchpad Y",
+      "signal": "LEFT_PAD_Y",
+      "kind": "axis",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Touchpad X",
+      "signal": "RIGHT_PAD_X",
+      "kind": "axis",
+      "status": "pending_validation"
+    },
+    {
+      "label": "Right Touchpad Y",
+      "signal": "RIGHT_PAD_Y",
+      "kind": "axis",
+      "status": "pending_validation"
+    }
+  ]
+}

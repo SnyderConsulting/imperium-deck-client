@@ -1,0 +1,5963 @@
+{
+  "A": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": 0.664,
+        "baseline_p1": 0.221,
+        "hold_p1": 0.885
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.593,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.407
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": 0.593,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.593
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.449,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.407
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": 0.438,
+        "baseline_p1": 0.03,
+        "hold_p1": 0.468
+      },
+      {
+        "byte": 38,
+        "bit": 7,
+        "delta": -0.438,
+        "baseline_p1": 0.97,
+        "hold_p1": 0.532
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": -0.435,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.565
+      },
+      {
+        "byte": 60,
+        "bit": 0,
+        "delta": -0.433,
+        "baseline_p1": 0.765,
+        "hold_p1": 0.331
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.414,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.586
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": -0.414,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.586
+      },
+      {
+        "byte": 42,
+        "bit": 7,
+        "delta": 0.414,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.414
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.374,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.483
+      },
+      {
+        "byte": 36,
+        "bit": 2,
+        "delta": -0.281,
+        "baseline_p1": 0.664,
+        "hold_p1": 0.384
+      },
+      {
+        "byte": 40,
+        "bit": 3,
+        "delta": 0.273,
+        "baseline_p1": 0.306,
+        "hold_p1": 0.578
+      },
+      {
+        "byte": 40,
+        "bit": 2,
+        "delta": -0.27,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.397
+      },
+      {
+        "byte": 26,
+        "bit": 7,
+        "delta": -0.267,
+        "baseline_p1": 0.799,
+        "hold_p1": 0.532
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 33,
+        "delta_mean": 38.82,
+        "baseline_mean": 18.63,
+        "hold_mean": 57.45
+      },
+      {
+        "byte": 32,
+        "delta_mean": 38.18,
+        "baseline_mean": 19.74,
+        "hold_mean": 57.92
+      },
+      {
+        "byte": 63,
+        "delta_mean": 31.59,
+        "baseline_mean": 68.12,
+        "hold_mean": 99.7
+      },
+      {
+        "byte": 62,
+        "delta_mean": 30.25,
+        "baseline_mean": 70.11,
+        "hold_mean": 100.36
+      },
+      {
+        "byte": 4,
+        "delta_mean": -28.03,
+        "baseline_mean": 145.47,
+        "hold_mean": 117.45
+      },
+      {
+        "byte": 38,
+        "delta_mean": -25.76,
+        "baseline_mean": 148.87,
+        "hold_mean": 123.11
+      },
+      {
+        "byte": 26,
+        "delta_mean": -20.98,
+        "baseline_mean": 149.33,
+        "hold_mean": 128.35
+      },
+      {
+        "byte": 28,
+        "delta_mean": 16.39,
+        "baseline_mean": 121.06,
+        "hold_mean": 137.46
+      },
+      {
+        "byte": 24,
+        "delta_mean": 14.91,
+        "baseline_mean": 87.1,
+        "hold_mean": 102.01
+      },
+      {
+        "byte": 40,
+        "delta_mean": -11.0,
+        "baseline_mean": 236.26,
+        "hold_mean": 225.25
+      },
+      {
+        "byte": 36,
+        "delta_mean": 7.49,
+        "baseline_mean": 108.87,
+        "hold_mean": 116.36
+      },
+      {
+        "byte": 42,
+        "delta_mean": 7.09,
+        "baseline_mean": 117.39,
+        "hold_mean": 124.48
+      },
+      {
+        "byte": 61,
+        "delta_mean": 4.53,
+        "baseline_mean": 80.34,
+        "hold_mean": 84.88
+      },
+      {
+        "byte": 60,
+        "delta_mean": 3.76,
+        "baseline_mean": 82.92,
+        "hold_mean": 86.69
+      },
+      {
+        "byte": 50,
+        "delta_mean": 3.33,
+        "baseline_mean": 28.64,
+        "hold_mean": 31.97
+      },
+      {
+        "byte": 35,
+        "delta_mean": 3.25,
+        "baseline_mean": 55.31,
+        "hold_mean": 58.56
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 795.7,
+        "baseline_mean": -13037.4,
+        "hold_mean": -12241.6
+      }
+    ]
+  },
+  "B": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.658,
+        "baseline_p1": 0.342,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 4,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 5,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 6,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 63,
+        "bit": 7,
+        "delta": 0.447,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.6
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.444,
+        "baseline_p1": 0.137,
+        "hold_p1": 0.581
+      },
+      {
+        "byte": 62,
+        "bit": 4,
+        "delta": 0.437,
+        "baseline_p1": 0.148,
+        "hold_p1": 0.586
+      },
+      {
+        "byte": 40,
+        "bit": 3,
+        "delta": -0.366,
+        "baseline_p1": 0.774,
+        "hold_p1": 0.408
+      },
+      {
+        "byte": 38,
+        "bit": 5,
+        "delta": 0.338,
+        "baseline_p1": 0.498,
+        "hold_p1": 0.836
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": 114.07,
+        "baseline_mean": 39.01,
+        "hold_mean": 153.07
+      },
+      {
+        "byte": 62,
+        "delta_mean": 109.93,
+        "baseline_mean": 41.57,
+        "hold_mean": 151.5
+      },
+      {
+        "byte": 35,
+        "delta_mean": 74.09,
+        "baseline_mean": 29.69,
+        "hold_mean": 103.78
+      },
+      {
+        "byte": 34,
+        "delta_mean": 73.76,
+        "baseline_mean": 30.06,
+        "hold_mean": 103.82
+      },
+      {
+        "byte": 4,
+        "delta_mean": 39.04,
+        "baseline_mean": 97.08,
+        "hold_mean": 136.12
+      },
+      {
+        "byte": 61,
+        "delta_mean": -29.67,
+        "baseline_mean": 90.82,
+        "hold_mean": 61.16
+      },
+      {
+        "byte": 60,
+        "delta_mean": -28.19,
+        "baseline_mean": 92.32,
+        "hold_mean": 64.12
+      },
+      {
+        "byte": 32,
+        "delta_mean": 22.16,
+        "baseline_mean": 54.63,
+        "hold_mean": 76.79
+      },
+      {
+        "byte": 33,
+        "delta_mean": 21.84,
+        "baseline_mean": 54.14,
+        "hold_mean": 75.98
+      },
+      {
+        "byte": 42,
+        "delta_mean": 21.32,
+        "baseline_mean": 154.38,
+        "hold_mean": 175.7
+      },
+      {
+        "byte": 24,
+        "delta_mean": 12.54,
+        "baseline_mean": 104.95,
+        "hold_mean": 117.5
+      },
+      {
+        "byte": 40,
+        "delta_mean": -11.41,
+        "baseline_mean": 229.61,
+        "hold_mean": 218.2
+      },
+      {
+        "byte": 28,
+        "delta_mean": -10.48,
+        "baseline_mean": 139.17,
+        "hold_mean": 128.69
+      },
+      {
+        "byte": 26,
+        "delta_mean": 8.64,
+        "baseline_mean": 120.59,
+        "hold_mean": 129.23
+      },
+      {
+        "byte": 38,
+        "delta_mean": 3.67,
+        "baseline_mean": 112.84,
+        "hold_mean": 116.52
+      },
+      {
+        "byte": 5,
+        "delta_mean": 2.96,
+        "baseline_mean": 211.97,
+        "hold_mean": 214.93
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": -11174.5,
+        "hold_mean": -10376.6
+      }
+    ]
+  },
+  "X": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.505,
+        "baseline_p1": 0.434,
+        "hold_p1": 0.939
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": 0.425,
+        "baseline_p1": 0.575,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 38,
+        "bit": 5,
+        "delta": 0.345,
+        "baseline_p1": 0.434,
+        "hold_p1": 0.779
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.322,
+        "baseline_p1": 0.422,
+        "hold_p1": 0.744
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.31,
+        "baseline_p1": 0.425,
+        "hold_p1": 0.115
+      },
+      {
+        "byte": 60,
+        "bit": 0,
+        "delta": -0.229,
+        "baseline_p1": 0.562,
+        "hold_p1": 0.333
+      },
+      {
+        "byte": 36,
+        "bit": 2,
+        "delta": -0.227,
+        "baseline_p1": 0.532,
+        "hold_p1": 0.305
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 4,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      },
+      {
+        "byte": 63,
+        "bit": 5,
+        "delta": -0.219,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.644
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": -55.88,
+        "baseline_mean": 220.07,
+        "hold_mean": 164.19
+      },
+      {
+        "byte": 62,
+        "delta_mean": -50.39,
+        "baseline_mean": 211.03,
+        "hold_mean": 160.64
+      },
+      {
+        "byte": 40,
+        "delta_mean": -42.93,
+        "baseline_mean": 236.38,
+        "hold_mean": 193.45
+      },
+      {
+        "byte": 31,
+        "delta_mean": -34.89,
+        "baseline_mean": 136.82,
+        "hold_mean": 101.93
+      },
+      {
+        "byte": 30,
+        "delta_mean": -32.98,
+        "baseline_mean": 134.9,
+        "hold_mean": 101.92
+      },
+      {
+        "byte": 33,
+        "delta_mean": -31.25,
+        "baseline_mean": 93.15,
+        "hold_mean": 61.9
+      },
+      {
+        "byte": 32,
+        "delta_mean": -30.75,
+        "baseline_mean": 93.47,
+        "hold_mean": 62.72
+      },
+      {
+        "byte": 42,
+        "delta_mean": 19.84,
+        "baseline_mean": 192.6,
+        "hold_mean": 212.44
+      },
+      {
+        "byte": 24,
+        "delta_mean": -19.27,
+        "baseline_mean": 128.72,
+        "hold_mean": 109.45
+      },
+      {
+        "byte": 61,
+        "delta_mean": -19.03,
+        "baseline_mean": 85.0,
+        "hold_mean": 65.97
+      },
+      {
+        "byte": 60,
+        "delta_mean": -18.22,
+        "baseline_mean": 86.37,
+        "hold_mean": 68.16
+      },
+      {
+        "byte": 4,
+        "delta_mean": 14.85,
+        "baseline_mean": 124.22,
+        "hold_mean": 139.08
+      },
+      {
+        "byte": 28,
+        "delta_mean": -13.3,
+        "baseline_mean": 127.0,
+        "hold_mean": 113.7
+      },
+      {
+        "byte": 38,
+        "delta_mean": 9.67,
+        "baseline_mean": 156.92,
+        "hold_mean": 166.59
+      },
+      {
+        "byte": 54,
+        "delta_mean": -3.17,
+        "baseline_mean": 25.49,
+        "hold_mean": 22.32
+      },
+      {
+        "byte": 5,
+        "delta_mean": 3.06,
+        "baseline_mean": 219.15,
+        "hold_mean": 222.21
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 798.7,
+        "baseline_mean": -9310.4,
+        "hold_mean": -8511.7
+      }
+    ]
+  },
+  "Y": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.982,
+        "baseline_p1": 0.018,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 39,
+        "bit": 3,
+        "delta": 0.782,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.782
+      },
+      {
+        "byte": 27,
+        "bit": 3,
+        "delta": 0.744,
+        "baseline_p1": 0.011,
+        "hold_p1": 0.756
+      },
+      {
+        "byte": 51,
+        "bit": 1,
+        "delta": -0.725,
+        "baseline_p1": 0.995,
+        "hold_p1": 0.27
+      },
+      {
+        "byte": 49,
+        "bit": 0,
+        "delta": -0.708,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.292
+      },
+      {
+        "byte": 49,
+        "bit": 2,
+        "delta": -0.689,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.311
+      },
+      {
+        "byte": 43,
+        "bit": 1,
+        "delta": 0.669,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.669
+      },
+      {
+        "byte": 43,
+        "bit": 2,
+        "delta": -0.669,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.331
+      },
+      {
+        "byte": 10,
+        "bit": 3,
+        "delta": -0.66,
+        "baseline_p1": 0.724,
+        "hold_p1": 0.064
+      },
+      {
+        "byte": 41,
+        "bit": 2,
+        "delta": -0.595,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.262
+      },
+      {
+        "byte": 48,
+        "bit": 0,
+        "delta": -0.59,
+        "baseline_p1": 0.879,
+        "hold_p1": 0.289
+      },
+      {
+        "byte": 50,
+        "bit": 7,
+        "delta": 0.556,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.561
+      },
+      {
+        "byte": 39,
+        "bit": 2,
+        "delta": -0.515,
+        "baseline_p1": 0.845,
+        "hold_p1": 0.33
+      },
+      {
+        "byte": 17,
+        "bit": 4,
+        "delta": -0.449,
+        "baseline_p1": 0.457,
+        "hold_p1": 0.007
+      },
+      {
+        "byte": 56,
+        "bit": 3,
+        "delta": -0.439,
+        "baseline_p1": 0.461,
+        "hold_p1": 0.022
+      },
+      {
+        "byte": 17,
+        "bit": 3,
+        "delta": -0.409,
+        "baseline_p1": 0.438,
+        "hold_p1": 0.029
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 50,
+        "delta_mean": 106.31,
+        "baseline_mean": 26.52,
+        "hold_mean": 132.83
+      },
+      {
+        "byte": 17,
+        "delta_mean": -86.33,
+        "baseline_mean": 97.16,
+        "hold_mean": 10.82
+      },
+      {
+        "byte": 18,
+        "delta_mean": -84.71,
+        "baseline_mean": 91.88,
+        "hold_mean": 7.16
+      },
+      {
+        "byte": 19,
+        "delta_mean": -81.27,
+        "baseline_mean": 83.62,
+        "hold_mean": 2.34
+      },
+      {
+        "byte": 16,
+        "delta_mean": -80.25,
+        "baseline_mean": 87.64,
+        "hold_mean": 7.39
+      },
+      {
+        "byte": 61,
+        "delta_mean": -71.36,
+        "baseline_mean": 180.48,
+        "hold_mean": 109.12
+      },
+      {
+        "byte": 56,
+        "delta_mean": -58.62,
+        "baseline_mean": 64.94,
+        "hold_mean": 6.32
+      },
+      {
+        "byte": 49,
+        "delta_mean": 43.52,
+        "baseline_mean": 5.0,
+        "hold_mean": 48.52
+      },
+      {
+        "byte": 4,
+        "delta_mean": -42.17,
+        "baseline_mean": 150.15,
+        "hold_mean": 107.98
+      },
+      {
+        "byte": 51,
+        "delta_mean": -38.38,
+        "baseline_mean": 254.0,
+        "hold_mean": 215.61
+      },
+      {
+        "byte": 35,
+        "delta_mean": 38.32,
+        "baseline_mean": 87.33,
+        "hold_mean": 125.65
+      },
+      {
+        "byte": 63,
+        "delta_mean": 34.11,
+        "baseline_mean": 20.38,
+        "hold_mean": 54.48
+      },
+      {
+        "byte": 41,
+        "delta_mean": 33.45,
+        "baseline_mean": 217.67,
+        "hold_mean": 251.11
+      },
+      {
+        "byte": 34,
+        "delta_mean": 31.69,
+        "baseline_mean": 91.88,
+        "hold_mean": 123.57
+      },
+      {
+        "byte": 62,
+        "delta_mean": 27.53,
+        "baseline_mean": 30.29,
+        "hold_mean": 57.82
+      },
+      {
+        "byte": 13,
+        "delta_mean": 24.84,
+        "baseline_mean": 0.0,
+        "hold_mean": 24.84
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 12,
+        "hi": 13,
+        "delta_mean": 6358.3,
+        "baseline_mean": 0.0,
+        "hold_mean": 6358.3
+      },
+      {
+        "lo": 18,
+        "hi": 19,
+        "delta_mean": -3534.5,
+        "baseline_mean": 4141.1,
+        "hold_mean": 606.6
+      },
+      {
+        "lo": 16,
+        "hi": 17,
+        "delta_mean": 2355.5,
+        "baseline_mean": -3768.7,
+        "hold_mean": -1413.3
+      },
+      {
+        "lo": 48,
+        "hi": 49,
+        "delta_mean": -1892.0,
+        "baseline_mean": 1372.4,
+        "hold_mean": -519.6
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": 1483.6,
+        "baseline_mean": 9661.1,
+        "hold_mean": 11144.8
+      },
+      {
+        "lo": 50,
+        "hi": 51,
+        "delta_mean": -1433.0,
+        "baseline_mean": -486.6,
+        "hold_mean": -1919.6
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": 1204.6,
+        "baseline_mean": 9543.4,
+        "hold_mean": 10748.0
+      },
+      {
+        "lo": 56,
+        "hi": 57,
+        "delta_mean": -990.4,
+        "baseline_mean": 1223.4,
+        "hold_mean": 232.9
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": -952.2,
+        "baseline_mean": 13562.7,
+        "hold_mean": 12610.5
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": -878.7,
+        "baseline_mean": -251.5,
+        "hold_mean": -1130.2
+      },
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": -7444.5,
+        "hold_mean": -6646.6
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 612.9,
+        "baseline_mean": 490.9,
+        "hold_mean": 1103.8
+      },
+      {
+        "lo": 36,
+        "hi": 37,
+        "delta_mean": -529.0,
+        "baseline_mean": 31292.2,
+        "hold_mean": 30763.2
+      },
+      {
+        "lo": 8,
+        "hi": 9,
+        "delta_mean": 352.0,
+        "baseline_mean": 0.0,
+        "hold_mean": 352.0
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": -254.1,
+        "baseline_mean": -754.4,
+        "hold_mean": -1008.5
+      },
+      {
+        "lo": 60,
+        "hi": 61,
+        "delta_mean": 89.4,
+        "baseline_mean": -4.7,
+        "hold_mean": 84.7
+      }
+    ]
+  },
+  "L1": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.815,
+        "baseline_p1": 0.094,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 10,
+        "bit": 4,
+        "delta": 0.757,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.757
+      },
+      {
+        "byte": 10,
+        "bit": 3,
+        "delta": 0.647,
+        "baseline_p1": 0.08,
+        "hold_p1": 0.727
+      },
+      {
+        "byte": 41,
+        "bit": 2,
+        "delta": 0.632,
+        "baseline_p1": 0.274,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 57,
+        "bit": 4,
+        "delta": 0.523,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.523
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.498,
+        "baseline_p1": 0.863,
+        "hold_p1": 0.365
+      },
+      {
+        "byte": 56,
+        "bit": 1,
+        "delta": 0.491,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.491
+      },
+      {
+        "byte": 56,
+        "bit": 2,
+        "delta": 0.491,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.491
+      },
+      {
+        "byte": 41,
+        "bit": 3,
+        "delta": 0.488,
+        "baseline_p1": 0.418,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 41,
+        "bit": 4,
+        "delta": 0.488,
+        "baseline_p1": 0.418,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 41,
+        "bit": 5,
+        "delta": 0.488,
+        "baseline_p1": 0.418,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 41,
+        "bit": 6,
+        "delta": 0.488,
+        "baseline_p1": 0.418,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 41,
+        "bit": 7,
+        "delta": 0.488,
+        "baseline_p1": 0.418,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 56,
+        "bit": 0,
+        "delta": 0.445,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.445
+      },
+      {
+        "byte": 59,
+        "bit": 3,
+        "delta": 0.426,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.426
+      },
+      {
+        "byte": 22,
+        "bit": 6,
+        "delta": 0.417,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.417
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 41,
+        "delta_mean": 123.86,
+        "baseline_mean": 106.43,
+        "hold_mean": 230.29
+      },
+      {
+        "byte": 58,
+        "delta_mean": 101.3,
+        "baseline_mean": 0.0,
+        "hold_mean": 101.3
+      },
+      {
+        "byte": 22,
+        "delta_mean": 97.53,
+        "baseline_mean": 0.0,
+        "hold_mean": 97.53
+      },
+      {
+        "byte": 20,
+        "delta_mean": 95.45,
+        "baseline_mean": 0.0,
+        "hold_mean": 95.45
+      },
+      {
+        "byte": 16,
+        "delta_mean": 85.51,
+        "baseline_mean": 8.64,
+        "hold_mean": 94.15
+      },
+      {
+        "byte": 17,
+        "delta_mean": 84.27,
+        "baseline_mean": 11.33,
+        "hold_mean": 95.6
+      },
+      {
+        "byte": 19,
+        "delta_mean": 83.99,
+        "baseline_mean": 8.07,
+        "hold_mean": 92.06
+      },
+      {
+        "byte": 23,
+        "delta_mean": 83.18,
+        "baseline_mean": 0.0,
+        "hold_mean": 83.18
+      },
+      {
+        "byte": 56,
+        "delta_mean": 82.47,
+        "baseline_mean": 0.0,
+        "hold_mean": 82.47
+      },
+      {
+        "byte": 18,
+        "delta_mean": 81.56,
+        "baseline_mean": 12.47,
+        "hold_mean": 94.03
+      },
+      {
+        "byte": 21,
+        "delta_mean": 73.24,
+        "baseline_mean": 0.0,
+        "hold_mean": 73.24
+      },
+      {
+        "byte": 25,
+        "delta_mean": -69.45,
+        "baseline_mean": 99.79,
+        "hold_mean": 30.34
+      },
+      {
+        "byte": 35,
+        "delta_mean": 62.93,
+        "baseline_mean": 75.68,
+        "hold_mean": 138.62
+      },
+      {
+        "byte": 34,
+        "delta_mean": 52.5,
+        "baseline_mean": 94.78,
+        "hold_mean": 147.28
+      },
+      {
+        "byte": 63,
+        "delta_mean": 51.16,
+        "baseline_mean": 147.88,
+        "hold_mean": 199.03
+      },
+      {
+        "byte": 62,
+        "delta_mean": 46.68,
+        "baseline_mean": 147.67,
+        "hold_mean": 194.35
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 20,
+        "hi": 21,
+        "delta_mean": 5414.9,
+        "baseline_mean": 0.0,
+        "hold_mean": 5414.9
+      },
+      {
+        "lo": 56,
+        "hi": 57,
+        "delta_mean": 3871.5,
+        "baseline_mean": 0.0,
+        "hold_mean": 3871.5
+      },
+      {
+        "lo": 16,
+        "hi": 17,
+        "delta_mean": -3109.7,
+        "baseline_mean": -2326.9,
+        "hold_mean": -5436.6
+      },
+      {
+        "lo": 58,
+        "hi": 59,
+        "delta_mean": 3105.6,
+        "baseline_mean": 0.0,
+        "hold_mean": 3105.6
+      },
+      {
+        "lo": 46,
+        "hi": 47,
+        "delta_mean": -3071.0,
+        "baseline_mean": 3071.0,
+        "hold_mean": 0.0
+      },
+      {
+        "lo": 18,
+        "hi": 19,
+        "delta_mean": -1184.2,
+        "baseline_mean": 2078.6,
+        "hold_mean": 894.4
+      },
+      {
+        "lo": 8,
+        "hi": 9,
+        "delta_mean": 1042.8,
+        "baseline_mean": -2090.6,
+        "hold_mean": -1047.8
+      },
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": -5579.5,
+        "hold_mean": -4781.6
+      },
+      {
+        "lo": 22,
+        "hi": 23,
+        "delta_mean": -517.2,
+        "baseline_mean": 0.0,
+        "hold_mean": -517.2
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 424.9,
+        "baseline_mean": 228.9,
+        "hold_mean": 653.8
+      },
+      {
+        "lo": 48,
+        "hi": 49,
+        "delta_mean": 365.3,
+        "baseline_mean": 862.1,
+        "hold_mean": 1227.3
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": 313.8,
+        "baseline_mean": -547.0,
+        "hold_mean": -233.2
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -246.4,
+        "baseline_mean": 10330.7,
+        "hold_mean": 10084.3
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": -241.1,
+        "baseline_mean": -0.6,
+        "hold_mean": -241.7
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": 184.9,
+        "baseline_mean": 13187.3,
+        "hold_mean": 13372.3
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -182.5,
+        "baseline_mean": 10053.0,
+        "hold_mean": 9870.5
+      }
+    ]
+  },
+  "R1": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.611,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.754
+      },
+      {
+        "byte": 43,
+        "bit": 1,
+        "delta": 0.562,
+        "baseline_p1": 0.397,
+        "hold_p1": 0.959
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 4,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 5,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 6,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 7,
+        "delta": 0.506,
+        "baseline_p1": 0.048,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": 0.478,
+        "baseline_p1": 0.075,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": 0.389,
+        "baseline_p1": 0.164,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": 0.362,
+        "baseline_p1": 0.192,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 35,
+        "bit": 0,
+        "delta": -0.298,
+        "baseline_p1": 0.701,
+        "hold_p1": 0.403
+      },
+      {
+        "byte": 37,
+        "bit": 4,
+        "delta": 0.288,
+        "baseline_p1": 0.712,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 62,
+        "bit": 4,
+        "delta": 0.278,
+        "baseline_p1": 0.203,
+        "hold_p1": 0.481
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": 128.84,
+        "baseline_mean": 12.37,
+        "hold_mean": 141.21
+      },
+      {
+        "byte": 62,
+        "delta_mean": 110.52,
+        "baseline_mean": 27.73,
+        "hold_mean": 138.25
+      },
+      {
+        "byte": 35,
+        "delta_mean": -70.48,
+        "baseline_mean": 173.51,
+        "hold_mean": 103.04
+      },
+      {
+        "byte": 46,
+        "delta_mean": 42.66,
+        "baseline_mean": 0.0,
+        "hold_mean": 42.66
+      },
+      {
+        "byte": 44,
+        "delta_mean": 38.6,
+        "baseline_mean": 0.0,
+        "hold_mean": 38.6
+      },
+      {
+        "byte": 34,
+        "delta_mean": -38.32,
+        "baseline_mean": 148.56,
+        "hold_mean": 110.25
+      },
+      {
+        "byte": 4,
+        "delta_mean": 33.75,
+        "baseline_mean": 109.39,
+        "hold_mean": 143.15
+      },
+      {
+        "byte": 13,
+        "delta_mean": -27.62,
+        "baseline_mean": 27.62,
+        "hold_mean": 0.0
+      },
+      {
+        "byte": 31,
+        "delta_mean": 26.03,
+        "baseline_mean": 114.97,
+        "hold_mean": 140.99
+      },
+      {
+        "byte": 42,
+        "delta_mean": 23.3,
+        "baseline_mean": 110.82,
+        "hold_mean": 134.12
+      },
+      {
+        "byte": 47,
+        "delta_mean": 21.21,
+        "baseline_mean": 0.0,
+        "hold_mean": 21.21
+      },
+      {
+        "byte": 53,
+        "delta_mean": -21.15,
+        "baseline_mean": 26.15,
+        "hold_mean": 5.0
+      },
+      {
+        "byte": 45,
+        "delta_mean": 19.05,
+        "baseline_mean": 0.0,
+        "hold_mean": 19.05
+      },
+      {
+        "byte": 50,
+        "delta_mean": -18.14,
+        "baseline_mean": 55.55,
+        "hold_mean": 37.41
+      },
+      {
+        "byte": 55,
+        "delta_mean": 18.05,
+        "baseline_mean": 236.82,
+        "hold_mean": 254.87
+      },
+      {
+        "byte": 61,
+        "delta_mean": 14.54,
+        "baseline_mean": 111.85,
+        "hold_mean": 126.39
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 46,
+        "hi": 47,
+        "delta_mean": 5472.2,
+        "baseline_mean": 0.0,
+        "hold_mean": 5472.2
+      },
+      {
+        "lo": 44,
+        "hi": 45,
+        "delta_mean": 4914.5,
+        "baseline_mean": 0.0,
+        "hold_mean": 4914.5
+      },
+      {
+        "lo": 12,
+        "hi": 13,
+        "delta_mean": 2356.6,
+        "baseline_mean": -2356.6,
+        "hold_mean": 0.0
+      },
+      {
+        "lo": 54,
+        "hi": 55,
+        "delta_mean": 1926.3,
+        "baseline_mean": -2165.4,
+        "hold_mean": -239.1
+      },
+      {
+        "lo": 50,
+        "hi": 51,
+        "delta_mean": -1807.9,
+        "baseline_mean": 2351.4,
+        "hold_mean": 543.5
+      },
+      {
+        "lo": 48,
+        "hi": 49,
+        "delta_mean": 1603.0,
+        "baseline_mean": -582.5,
+        "hold_mean": 1020.6
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -1201.0,
+        "baseline_mean": 14108.0,
+        "hold_mean": 12907.0
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": 1142.0,
+        "baseline_mean": 10243.0,
+        "hold_mean": 11385.0
+      },
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 798.9,
+        "baseline_mean": -3713.7,
+        "hold_mean": -2914.7
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -783.4,
+        "baseline_mean": 12843.4,
+        "hold_mean": 12060.1
+      },
+      {
+        "lo": 52,
+        "hi": 53,
+        "delta_mean": -621.0,
+        "baseline_mean": 2037.8,
+        "hold_mean": 1416.8
+      },
+      {
+        "lo": 36,
+        "hi": 37,
+        "delta_mean": 607.4,
+        "baseline_mean": 29493.1,
+        "hold_mean": 30100.5
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": 262.1,
+        "baseline_mean": -555.5,
+        "hold_mean": -293.4
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": 158.2,
+        "baseline_mean": -343.5,
+        "hold_mean": -185.3
+      },
+      {
+        "lo": 30,
+        "hi": 31,
+        "delta_mean": -153.7,
+        "baseline_mean": 82.8,
+        "hold_mean": -70.8
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": -124.9,
+        "baseline_mean": 616.4,
+        "hold_mean": 491.5
+      }
+    ]
+  },
+  "L2": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 37,
+        "bit": 2,
+        "delta": 0.6,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 43,
+        "bit": 3,
+        "delta": -0.462,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.538
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.346,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.49
+      },
+      {
+        "byte": 39,
+        "bit": 4,
+        "delta": 0.336,
+        "baseline_p1": 0.372,
+        "hold_p1": 0.708
+      },
+      {
+        "byte": 39,
+        "bit": 5,
+        "delta": -0.334,
+        "baseline_p1": 0.628,
+        "hold_p1": 0.294
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.327,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.471
+      },
+      {
+        "byte": 43,
+        "bit": 2,
+        "delta": -0.324,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.676
+      },
+      {
+        "byte": 37,
+        "bit": 0,
+        "delta": -0.308,
+        "baseline_p1": 0.603,
+        "hold_p1": 0.295
+      },
+      {
+        "byte": 39,
+        "bit": 2,
+        "delta": 0.279,
+        "baseline_p1": 0.452,
+        "hold_p1": 0.731
+      },
+      {
+        "byte": 43,
+        "bit": 4,
+        "delta": -0.279,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.721
+      },
+      {
+        "byte": 43,
+        "bit": 5,
+        "delta": -0.279,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.721
+      },
+      {
+        "byte": 43,
+        "bit": 6,
+        "delta": -0.279,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.721
+      },
+      {
+        "byte": 43,
+        "bit": 7,
+        "delta": -0.279,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.721
+      },
+      {
+        "byte": 27,
+        "bit": 5,
+        "delta": -0.278,
+        "baseline_p1": 0.566,
+        "hold_p1": 0.288
+      },
+      {
+        "byte": 41,
+        "bit": 2,
+        "delta": 0.268,
+        "baseline_p1": 0.158,
+        "hold_p1": 0.426
+      },
+      {
+        "byte": 27,
+        "bit": 4,
+        "delta": 0.261,
+        "baseline_p1": 0.454,
+        "hold_p1": 0.715
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 43,
+        "delta_mean": -71.84,
+        "baseline_mean": 253.74,
+        "hold_mean": 181.9
+      },
+      {
+        "byte": 48,
+        "delta_mean": -43.76,
+        "baseline_mean": 65.18,
+        "hold_mean": 21.43
+      },
+      {
+        "byte": 41,
+        "delta_mean": 43.64,
+        "baseline_mean": 25.34,
+        "hold_mean": 68.98
+      },
+      {
+        "byte": 42,
+        "delta_mean": -38.88,
+        "baseline_mean": 157.18,
+        "hold_mean": 118.31
+      },
+      {
+        "byte": 55,
+        "delta_mean": -37.95,
+        "baseline_mean": 40.95,
+        "hold_mean": 3.0
+      },
+      {
+        "byte": 51,
+        "delta_mean": 36.5,
+        "baseline_mean": 215.5,
+        "hold_mean": 252.0
+      },
+      {
+        "byte": 39,
+        "delta_mean": 36.04,
+        "baseline_mean": 33.57,
+        "hold_mean": 69.61
+      },
+      {
+        "byte": 60,
+        "delta_mean": -34.91,
+        "baseline_mean": 139.98,
+        "hold_mean": 105.07
+      },
+      {
+        "byte": 49,
+        "delta_mean": -34.16,
+        "baseline_mean": 44.91,
+        "hold_mean": 10.75
+      },
+      {
+        "byte": 25,
+        "delta_mean": -32.69,
+        "baseline_mean": 141.47,
+        "hold_mean": 108.78
+      },
+      {
+        "byte": 27,
+        "delta_mean": 31.12,
+        "baseline_mean": 33.36,
+        "hold_mean": 64.48
+      },
+      {
+        "byte": 8,
+        "delta_mean": -30.89,
+        "baseline_mean": 32.66,
+        "hold_mean": 1.77
+      },
+      {
+        "byte": 31,
+        "delta_mean": 29.93,
+        "baseline_mean": 113.73,
+        "hold_mean": 143.66
+      },
+      {
+        "byte": 62,
+        "delta_mean": -29.9,
+        "baseline_mean": 131.25,
+        "hold_mean": 101.35
+      },
+      {
+        "byte": 52,
+        "delta_mean": 24.82,
+        "baseline_mean": 182.39,
+        "hold_mean": 207.21
+      },
+      {
+        "byte": 13,
+        "delta_mean": -24.55,
+        "baseline_mean": 24.55,
+        "hold_mean": 0.0
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -4007.0,
+        "baseline_mean": 8717.9,
+        "hold_mean": 4710.9
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -3746.0,
+        "baseline_mean": 8669.2,
+        "hold_mean": 4923.2
+      },
+      {
+        "lo": 12,
+        "hi": 13,
+        "delta_mean": 3740.6,
+        "baseline_mean": -3740.6,
+        "hold_mean": 0.0
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": 1120.7,
+        "baseline_mean": 14123.8,
+        "hold_mean": 15244.6
+      },
+      {
+        "lo": 44,
+        "hi": 45,
+        "delta_mean": -876.7,
+        "baseline_mean": 876.7,
+        "hold_mean": 0.0
+      },
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 798.8,
+        "baseline_mean": -1847.5,
+        "hold_mean": -1048.7
+      },
+      {
+        "lo": 8,
+        "hi": 9,
+        "delta_mean": -646.1,
+        "baseline_mean": 668.0,
+        "hold_mean": 21.9
+      },
+      {
+        "lo": 36,
+        "hi": 37,
+        "delta_mean": 508.3,
+        "baseline_mean": 31556.8,
+        "hold_mean": 32065.1
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 327.2,
+        "baseline_mean": -164.9,
+        "hold_mean": 162.2
+      },
+      {
+        "lo": 30,
+        "hi": 31,
+        "delta_mean": -316.1,
+        "baseline_mean": 63.0,
+        "hold_mean": -253.1
+      },
+      {
+        "lo": 54,
+        "hi": 55,
+        "delta_mean": -267.0,
+        "baseline_mean": 1218.7,
+        "hold_mean": 951.7
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": -139.8,
+        "baseline_mean": -422.0,
+        "hold_mean": -561.9
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": -139.2,
+        "baseline_mean": 481.9,
+        "hold_mean": 342.7
+      },
+      {
+        "lo": 10,
+        "hi": 11,
+        "delta_mean": -67.8,
+        "baseline_mean": 67.8,
+        "hold_mean": 0.0
+      },
+      {
+        "lo": 52,
+        "hi": 53,
+        "delta_mean": 64.7,
+        "baseline_mean": 1679.2,
+        "hold_mean": 1744.0
+      },
+      {
+        "lo": 50,
+        "hi": 51,
+        "delta_mean": -63.5,
+        "baseline_mean": -808.3,
+        "hold_mean": -871.8
+      }
+    ]
+  },
+  "R2": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.744,
+        "baseline_p1": 0.836,
+        "hold_p1": 0.092
+      },
+      {
+        "byte": 27,
+        "bit": 1,
+        "delta": -0.588,
+        "baseline_p1": 0.963,
+        "hold_p1": 0.375
+      },
+      {
+        "byte": 39,
+        "bit": 1,
+        "delta": 0.536,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.536
+      },
+      {
+        "byte": 39,
+        "bit": 2,
+        "delta": -0.536,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.464
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.52,
+        "baseline_p1": 0.164,
+        "hold_p1": 0.685
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.506,
+        "baseline_p1": 0.562,
+        "hold_p1": 0.055
+      },
+      {
+        "byte": 27,
+        "bit": 0,
+        "delta": 0.404,
+        "baseline_p1": 0.221,
+        "hold_p1": 0.625
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.331,
+        "baseline_p1": 0.53,
+        "hold_p1": 0.199
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 5,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 6,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 7,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 6,
+        "bit": 0,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 6,
+        "bit": 1,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 6,
+        "bit": 2,
+        "delta": -0.308,
+        "baseline_p1": 0.308,
+        "hold_p1": 0.0
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 5,
+        "delta_mean": -75.69,
+        "baseline_mean": 78.42,
+        "hold_mean": 2.73
+      },
+      {
+        "byte": 63,
+        "delta_mean": -69.4,
+        "baseline_mean": 158.36,
+        "hold_mean": 88.95
+      },
+      {
+        "byte": 62,
+        "delta_mean": -65.33,
+        "baseline_mean": 156.59,
+        "hold_mean": 91.26
+      },
+      {
+        "byte": 24,
+        "delta_mean": 48.65,
+        "baseline_mean": 146.43,
+        "hold_mean": 195.08
+      },
+      {
+        "byte": 61,
+        "delta_mean": 42.3,
+        "baseline_mean": 118.18,
+        "hold_mean": 160.49
+      },
+      {
+        "byte": 60,
+        "delta_mean": 39.72,
+        "baseline_mean": 118.09,
+        "hold_mean": 157.81
+      },
+      {
+        "byte": 36,
+        "delta_mean": -32.48,
+        "baseline_mean": 52.97,
+        "hold_mean": 20.49
+      },
+      {
+        "byte": 4,
+        "delta_mean": -25.61,
+        "baseline_mean": 143.56,
+        "hold_mean": 117.96
+      },
+      {
+        "byte": 40,
+        "delta_mean": 23.41,
+        "baseline_mean": 79.75,
+        "hold_mean": 103.16
+      },
+      {
+        "byte": 26,
+        "delta_mean": 15.57,
+        "baseline_mean": 129.94,
+        "hold_mean": 145.51
+      },
+      {
+        "byte": 31,
+        "delta_mean": -15.28,
+        "baseline_mean": 178.73,
+        "hold_mean": 163.45
+      },
+      {
+        "byte": 28,
+        "delta_mean": 12.74,
+        "baseline_mean": 110.54,
+        "hold_mean": 123.28
+      },
+      {
+        "byte": 30,
+        "delta_mean": -11.96,
+        "baseline_mean": 172.81,
+        "hold_mean": 160.85
+      },
+      {
+        "byte": 34,
+        "delta_mean": -5.65,
+        "baseline_mean": 97.54,
+        "hold_mean": 91.89
+      },
+      {
+        "byte": 38,
+        "delta_mean": -5.17,
+        "baseline_mean": 136.8,
+        "hold_mean": 131.62
+      },
+      {
+        "byte": 35,
+        "delta_mean": -3.77,
+        "baseline_mean": 96.06,
+        "hold_mean": 92.29
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 18.5,
+        "hold_mean": 816.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -208.5,
+        "baseline_mean": -4917.2,
+        "hold_mean": -5125.7
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -198.8,
+        "baseline_mean": -4423.7,
+        "hold_mean": -4622.5
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": -42.9,
+        "baseline_mean": 15917.7,
+        "hold_mean": 15874.7
+      }
+    ]
+  },
+  "L3": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": -0.733,
+        "baseline_p1": 0.749,
+        "hold_p1": 0.016
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.721,
+        "baseline_p1": 0.721,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.721,
+        "baseline_p1": 0.279,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 38,
+        "bit": 7,
+        "delta": 0.608,
+        "baseline_p1": 0.342,
+        "hold_p1": 0.951
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 4,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 5,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 6,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 63,
+        "bit": 7,
+        "delta": 0.569,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.722
+      },
+      {
+        "byte": 62,
+        "bit": 4,
+        "delta": 0.507,
+        "baseline_p1": 0.153,
+        "hold_p1": 0.66
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": 145.2,
+        "baseline_mean": 39.01,
+        "hold_mean": 184.21
+      },
+      {
+        "byte": 62,
+        "delta_mean": 134.1,
+        "baseline_mean": 45.71,
+        "hold_mean": 179.82
+      },
+      {
+        "byte": 38,
+        "delta_mean": 100.28,
+        "baseline_mean": 82.4,
+        "hold_mean": 182.68
+      },
+      {
+        "byte": 4,
+        "delta_mean": 40.44,
+        "baseline_mean": 96.71,
+        "hold_mean": 137.14
+      },
+      {
+        "byte": 31,
+        "delta_mean": -28.74,
+        "baseline_mean": 152.53,
+        "hold_mean": 123.79
+      },
+      {
+        "byte": 30,
+        "delta_mean": -24.26,
+        "baseline_mean": 148.87,
+        "hold_mean": 124.61
+      },
+      {
+        "byte": 36,
+        "delta_mean": 21.72,
+        "baseline_mean": 200.6,
+        "hold_mean": 222.32
+      },
+      {
+        "byte": 35,
+        "delta_mean": -13.04,
+        "baseline_mean": 104.21,
+        "hold_mean": 91.18
+      },
+      {
+        "byte": 34,
+        "delta_mean": -12.39,
+        "baseline_mean": 103.86,
+        "hold_mean": 91.47
+      },
+      {
+        "byte": 24,
+        "delta_mean": -12.16,
+        "baseline_mean": 145.75,
+        "hold_mean": 133.59
+      },
+      {
+        "byte": 26,
+        "delta_mean": 8.72,
+        "baseline_mean": 130.34,
+        "hold_mean": 139.06
+      },
+      {
+        "byte": 42,
+        "delta_mean": -8.0,
+        "baseline_mean": 194.5,
+        "hold_mean": 186.5
+      },
+      {
+        "byte": 40,
+        "delta_mean": -5.94,
+        "baseline_mean": 142.74,
+        "hold_mean": 136.79
+      },
+      {
+        "byte": 28,
+        "delta_mean": -5.8,
+        "baseline_mean": 125.39,
+        "hold_mean": 119.59
+      },
+      {
+        "byte": 61,
+        "delta_mean": -4.51,
+        "baseline_mean": 104.21,
+        "hold_mean": 99.7
+      },
+      {
+        "byte": 33,
+        "delta_mean": 4.39,
+        "baseline_mean": 112.36,
+        "hold_mean": 116.75
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 798.2,
+        "baseline_mean": 1885.2,
+        "hold_mean": 2683.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -87.3,
+        "baseline_mean": -5357.9,
+        "hold_mean": -5445.2
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -85.7,
+        "baseline_mean": -4850.6,
+        "hold_mean": -4936.3
+      }
+    ]
+  },
+  "R3": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.911,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.089
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.911,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.089
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": 0.911,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.911
+      },
+      {
+        "byte": 43,
+        "bit": 0,
+        "delta": 0.908,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 36,
+        "bit": 6,
+        "delta": -0.737,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.263
+      },
+      {
+        "byte": 36,
+        "bit": 7,
+        "delta": -0.737,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.263
+      },
+      {
+        "byte": 37,
+        "bit": 0,
+        "delta": -0.737,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.263
+      },
+      {
+        "byte": 37,
+        "bit": 1,
+        "delta": 0.737,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.737
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": 0.646,
+        "baseline_p1": 0.203,
+        "hold_p1": 0.849
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.643,
+        "baseline_p1": 0.785,
+        "hold_p1": 0.142
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.634,
+        "baseline_p1": 0.897,
+        "hold_p1": 0.263
+      },
+      {
+        "byte": 40,
+        "bit": 7,
+        "delta": -0.577,
+        "baseline_p1": 0.943,
+        "hold_p1": 0.366
+      },
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": 0.546,
+        "baseline_p1": 0.094,
+        "hold_p1": 0.64
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": -0.47,
+        "baseline_p1": 0.715,
+        "hold_p1": 0.244
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.329,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.528
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": 0.321,
+        "baseline_p1": 0.559,
+        "hold_p1": 0.881
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 36,
+        "delta_mean": -163.04,
+        "baseline_mean": 232.89,
+        "hold_mean": 69.85
+      },
+      {
+        "byte": 38,
+        "delta_mean": -48.35,
+        "baseline_mean": 124.27,
+        "hold_mean": 75.91
+      },
+      {
+        "byte": 42,
+        "delta_mean": 46.17,
+        "baseline_mean": 151.73,
+        "hold_mean": 197.89
+      },
+      {
+        "byte": 40,
+        "delta_mean": -31.55,
+        "baseline_mean": 155.54,
+        "hold_mean": 123.99
+      },
+      {
+        "byte": 61,
+        "delta_mean": -18.32,
+        "baseline_mean": 126.92,
+        "hold_mean": 108.6
+      },
+      {
+        "byte": 35,
+        "delta_mean": -17.96,
+        "baseline_mean": 110.62,
+        "hold_mean": 92.66
+      },
+      {
+        "byte": 60,
+        "delta_mean": -17.33,
+        "baseline_mean": 127.0,
+        "hold_mean": 109.67
+      },
+      {
+        "byte": 33,
+        "delta_mean": 15.59,
+        "baseline_mean": 101.9,
+        "hold_mean": 117.49
+      },
+      {
+        "byte": 31,
+        "delta_mean": 14.19,
+        "baseline_mean": 121.1,
+        "hold_mean": 135.28
+      },
+      {
+        "byte": 34,
+        "delta_mean": -13.77,
+        "baseline_mean": 110.15,
+        "hold_mean": 96.38
+      },
+      {
+        "byte": 32,
+        "delta_mean": 12.23,
+        "baseline_mean": 104.93,
+        "hold_mean": 117.16
+      },
+      {
+        "byte": 4,
+        "delta_mean": 11.8,
+        "baseline_mean": 126.16,
+        "hold_mean": 137.96
+      },
+      {
+        "byte": 26,
+        "delta_mean": -11.47,
+        "baseline_mean": 135.78,
+        "hold_mean": 124.31
+      },
+      {
+        "byte": 30,
+        "delta_mean": 10.02,
+        "baseline_mean": 123.92,
+        "hold_mean": 133.94
+      },
+      {
+        "byte": 28,
+        "delta_mean": -7.65,
+        "baseline_mean": 137.83,
+        "hold_mean": 130.18
+      },
+      {
+        "byte": 48,
+        "delta_mean": 5.9,
+        "baseline_mean": 17.24,
+        "hold_mean": 23.14
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 3750.5,
+        "hold_mean": 4548.4
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": 278.7,
+        "baseline_mean": -2408.3,
+        "hold_mean": -2129.5
+      }
+    ]
+  },
+  "L4": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.908,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.765,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.092
+      },
+      {
+        "byte": 37,
+        "bit": 0,
+        "delta": 0.602,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.606
+      },
+      {
+        "byte": 37,
+        "bit": 1,
+        "delta": -0.602,
+        "baseline_p1": 0.995,
+        "hold_p1": 0.394
+      },
+      {
+        "byte": 36,
+        "bit": 7,
+        "delta": 0.58,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.584
+      },
+      {
+        "byte": 36,
+        "bit": 6,
+        "delta": 0.529,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.533
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": 0.517,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.522
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.491,
+        "baseline_p1": 0.756,
+        "hold_p1": 0.265
+      },
+      {
+        "byte": 40,
+        "bit": 7,
+        "delta": 0.485,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.485
+      },
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": 0.478,
+        "baseline_p1": 0.005,
+        "hold_p1": 0.483
+      },
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": -0.43,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.57
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": -0.419,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.581
+      },
+      {
+        "byte": 40,
+        "bit": 4,
+        "delta": -0.415,
+        "baseline_p1": 0.961,
+        "hold_p1": 0.547
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": 0.389,
+        "baseline_p1": 0.29,
+        "hold_p1": 0.679
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": -0.379,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.621
+      },
+      {
+        "byte": 38,
+        "bit": 7,
+        "delta": 0.374,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.374
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 36,
+        "delta_mean": 131.46,
+        "baseline_mean": 9.1,
+        "hold_mean": 140.56
+      },
+      {
+        "byte": 42,
+        "delta_mean": -48.44,
+        "baseline_mean": 194.95,
+        "hold_mean": 146.51
+      },
+      {
+        "byte": 4,
+        "delta_mean": -40.47,
+        "baseline_mean": 149.48,
+        "hold_mean": 109.0
+      },
+      {
+        "byte": 35,
+        "delta_mean": 39.01,
+        "baseline_mean": 91.4,
+        "hold_mean": 130.41
+      },
+      {
+        "byte": 38,
+        "delta_mean": 37.52,
+        "baseline_mean": 68.71,
+        "hold_mean": 106.23
+      },
+      {
+        "byte": 25,
+        "delta_mean": 32.46,
+        "baseline_mean": 1.09,
+        "hold_mean": 33.55
+      },
+      {
+        "byte": 32,
+        "delta_mean": 31.33,
+        "baseline_mean": 92.31,
+        "hold_mean": 123.64
+      },
+      {
+        "byte": 34,
+        "delta_mean": 28.84,
+        "baseline_mean": 91.42,
+        "hold_mean": 120.26
+      },
+      {
+        "byte": 63,
+        "delta_mean": 25.13,
+        "baseline_mean": 83.84,
+        "hold_mean": 108.97
+      },
+      {
+        "byte": 62,
+        "delta_mean": 23.58,
+        "baseline_mean": 86.95,
+        "hold_mean": 110.54
+      },
+      {
+        "byte": 33,
+        "delta_mean": 18.72,
+        "baseline_mean": 91.4,
+        "hold_mean": 110.12
+      },
+      {
+        "byte": 40,
+        "delta_mean": 15.44,
+        "baseline_mean": 118.19,
+        "hold_mean": 133.63
+      },
+      {
+        "byte": 61,
+        "delta_mean": 9.89,
+        "baseline_mean": 89.08,
+        "hold_mean": 98.96
+      },
+      {
+        "byte": 60,
+        "delta_mean": 9.35,
+        "baseline_mean": 91.52,
+        "hold_mean": 100.87
+      },
+      {
+        "byte": 26,
+        "delta_mean": 8.57,
+        "baseline_mean": 118.08,
+        "hold_mean": 126.65
+      },
+      {
+        "byte": 30,
+        "delta_mean": 7.11,
+        "baseline_mean": 122.19,
+        "hold_mean": 129.31
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 5615.5,
+        "hold_mean": 6413.4
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": -297.0,
+        "baseline_mean": -2109.0,
+        "hold_mean": -2406.0
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": 102.9,
+        "baseline_mean": 374.2,
+        "hold_mean": 477.1
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": -79.3,
+        "baseline_mean": 423.3,
+        "hold_mean": 344.0
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": 45.4,
+        "baseline_mean": -4808.5,
+        "hold_mean": -4763.0
+      }
+    ]
+  },
+  "R4": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 39,
+        "bit": 1,
+        "delta": -0.71,
+        "baseline_p1": 0.71,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.696,
+        "baseline_p1": 0.696,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": 0.676,
+        "baseline_p1": 0.324,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": 0.657,
+        "baseline_p1": 0.32,
+        "hold_p1": 0.977
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.653,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.347
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": -0.653,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.347
+      },
+      {
+        "byte": 5,
+        "bit": 5,
+        "delta": 0.653,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.653
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.568,
+        "baseline_p1": 0.568,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 27,
+        "bit": 4,
+        "delta": -0.544,
+        "baseline_p1": 0.553,
+        "hold_p1": 0.009
+      },
+      {
+        "byte": 27,
+        "bit": 3,
+        "delta": 0.521,
+        "baseline_p1": 0.47,
+        "hold_p1": 0.991
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.509,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.347
+      },
+      {
+        "byte": 27,
+        "bit": 1,
+        "delta": 0.498,
+        "baseline_p1": 0.493,
+        "hold_p1": 0.991
+      },
+      {
+        "byte": 27,
+        "bit": 2,
+        "delta": 0.496,
+        "baseline_p1": 0.495,
+        "hold_p1": 0.991
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": -0.493,
+        "baseline_p1": 0.632,
+        "hold_p1": 0.14
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": 0.475,
+        "baseline_p1": 0.425,
+        "hold_p1": 0.9
+      },
+      {
+        "byte": 38,
+        "bit": 7,
+        "delta": 0.431,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.86
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 40,
+        "delta_mean": 80.45,
+        "baseline_mean": 140.61,
+        "hold_mean": 221.05
+      },
+      {
+        "byte": 63,
+        "delta_mean": 70.76,
+        "baseline_mean": 50.07,
+        "hold_mean": 120.83
+      },
+      {
+        "byte": 62,
+        "delta_mean": 67.37,
+        "baseline_mean": 54.26,
+        "hold_mean": 121.63
+      },
+      {
+        "byte": 35,
+        "delta_mean": -48.29,
+        "baseline_mean": 129.83,
+        "hold_mean": 81.54
+      },
+      {
+        "byte": 25,
+        "delta_mean": -46.59,
+        "baseline_mean": 111.08,
+        "hold_mean": 64.49
+      },
+      {
+        "byte": 36,
+        "delta_mean": -41.77,
+        "baseline_mean": 119.83,
+        "hold_mean": 78.06
+      },
+      {
+        "byte": 61,
+        "delta_mean": -41.5,
+        "baseline_mean": 143.8,
+        "hold_mean": 102.3
+      },
+      {
+        "byte": 60,
+        "delta_mean": -38.97,
+        "baseline_mean": 142.47,
+        "hold_mean": 103.49
+      },
+      {
+        "byte": 34,
+        "delta_mean": -37.45,
+        "baseline_mean": 119.32,
+        "hold_mean": 81.87
+      },
+      {
+        "byte": 38,
+        "delta_mean": 30.98,
+        "baseline_mean": 126.54,
+        "hold_mean": 157.52
+      },
+      {
+        "byte": 26,
+        "delta_mean": -24.94,
+        "baseline_mean": 132.0,
+        "hold_mean": 107.05
+      },
+      {
+        "byte": 31,
+        "delta_mean": -24.8,
+        "baseline_mean": 151.93,
+        "hold_mean": 127.13
+      },
+      {
+        "byte": 33,
+        "delta_mean": -19.11,
+        "baseline_mean": 103.62,
+        "hold_mean": 84.51
+      },
+      {
+        "byte": 32,
+        "delta_mean": -19.09,
+        "baseline_mean": 104.5,
+        "hold_mean": 85.41
+      },
+      {
+        "byte": 24,
+        "delta_mean": -13.23,
+        "baseline_mean": 115.54,
+        "hold_mean": 102.31
+      },
+      {
+        "byte": 30,
+        "delta_mean": -12.88,
+        "baseline_mean": 138.54,
+        "hold_mean": 125.66
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 7481.5,
+        "hold_mean": 8279.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -339.6,
+        "baseline_mean": -4366.9,
+        "hold_mean": -4706.5
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -314.2,
+        "baseline_mean": -3935.9,
+        "hold_mean": -4250.2
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": -95.5,
+        "baseline_mean": 16075.0,
+        "hold_mean": 15979.5
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 63.5,
+        "baseline_mean": -25.9,
+        "hold_mean": 37.6
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": -44.7,
+        "baseline_mean": 803.4,
+        "hold_mean": 758.7
+      },
+      {
+        "lo": 36,
+        "hi": 37,
+        "delta_mean": -41.8,
+        "baseline_mean": 32375.8,
+        "hold_mean": 32334.1
+      }
+    ]
+  },
+  "L5": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.672,
+        "baseline_p1": 0.726,
+        "hold_p1": 0.054
+      },
+      {
+        "byte": 38,
+        "bit": 5,
+        "delta": 0.397,
+        "baseline_p1": 0.151,
+        "hold_p1": 0.548
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.387,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.387
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.378,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.522
+      },
+      {
+        "byte": 62,
+        "bit": 4,
+        "delta": -0.349,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.08
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 4,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 5,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 6,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      },
+      {
+        "byte": 63,
+        "bit": 7,
+        "delta": -0.348,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.081
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": -88.7,
+        "baseline_mean": 109.45,
+        "hold_mean": 20.76
+      },
+      {
+        "byte": 62,
+        "delta_mean": -82.02,
+        "baseline_mean": 110.62,
+        "hold_mean": 28.6
+      },
+      {
+        "byte": 4,
+        "delta_mean": 31.69,
+        "baseline_mean": 111.2,
+        "hold_mean": 142.89
+      },
+      {
+        "byte": 31,
+        "delta_mean": 20.06,
+        "baseline_mean": 110.03,
+        "hold_mean": 130.09
+      },
+      {
+        "byte": 61,
+        "delta_mean": 18.62,
+        "baseline_mean": 92.57,
+        "hold_mean": 111.19
+      },
+      {
+        "byte": 30,
+        "delta_mean": 18.56,
+        "baseline_mean": 110.92,
+        "hold_mean": 129.48
+      },
+      {
+        "byte": 60,
+        "delta_mean": 17.58,
+        "baseline_mean": 94.38,
+        "hold_mean": 111.96
+      },
+      {
+        "byte": 25,
+        "delta_mean": 16.93,
+        "baseline_mean": 85.0,
+        "hold_mean": 101.93
+      },
+      {
+        "byte": 26,
+        "delta_mean": 13.25,
+        "baseline_mean": 71.55,
+        "hold_mean": 84.8
+      },
+      {
+        "byte": 38,
+        "delta_mean": -11.18,
+        "baseline_mean": 88.04,
+        "hold_mean": 76.87
+      },
+      {
+        "byte": 24,
+        "delta_mean": 8.82,
+        "baseline_mean": 108.7,
+        "hold_mean": 117.52
+      },
+      {
+        "byte": 42,
+        "delta_mean": -8.78,
+        "baseline_mean": 208.48,
+        "hold_mean": 199.7
+      },
+      {
+        "byte": 40,
+        "delta_mean": -8.18,
+        "baseline_mean": 29.17,
+        "hold_mean": 20.99
+      },
+      {
+        "byte": 33,
+        "delta_mean": 6.65,
+        "baseline_mean": 78.6,
+        "hold_mean": 85.25
+      },
+      {
+        "byte": 32,
+        "delta_mean": 6.11,
+        "baseline_mean": 80.2,
+        "hold_mean": 86.3
+      },
+      {
+        "byte": 28,
+        "delta_mean": 4.52,
+        "baseline_mean": 101.02,
+        "hold_mean": 105.54
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 9346.5,
+        "hold_mean": 10144.4
+      }
+    ]
+  },
+  "R5": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.42,
+        "baseline_p1": 0.324,
+        "hold_p1": 0.744
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.373,
+        "baseline_p1": 0.916,
+        "hold_p1": 0.542
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.346,
+        "baseline_p1": 0.532,
+        "hold_p1": 0.878
+      },
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": 0.335,
+        "baseline_p1": 0.107,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": 0.335,
+        "baseline_p1": 0.107,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 36,
+        "bit": 6,
+        "delta": -0.335,
+        "baseline_p1": 0.893,
+        "hold_p1": 0.558
+      },
+      {
+        "byte": 36,
+        "bit": 3,
+        "delta": 0.21,
+        "baseline_p1": 0.107,
+        "hold_p1": 0.317
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": -0.202,
+        "baseline_p1": 0.991,
+        "hold_p1": 0.789
+      },
+      {
+        "byte": 60,
+        "bit": 0,
+        "delta": 0.202,
+        "baseline_p1": 0.4,
+        "hold_p1": 0.602
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": -24.11,
+        "baseline_mean": 74.52,
+        "hold_mean": 50.41
+      },
+      {
+        "byte": 62,
+        "delta_mean": -23.13,
+        "baseline_mean": 76.19,
+        "hold_mean": 53.05
+      },
+      {
+        "byte": 4,
+        "delta_mean": -22.55,
+        "baseline_mean": 141.95,
+        "hold_mean": 119.4
+      },
+      {
+        "byte": 42,
+        "delta_mean": -18.04,
+        "baseline_mean": 177.6,
+        "hold_mean": 159.56
+      },
+      {
+        "byte": 30,
+        "delta_mean": 14.58,
+        "baseline_mean": 108.17,
+        "hold_mean": 122.75
+      },
+      {
+        "byte": 31,
+        "delta_mean": 13.81,
+        "baseline_mean": 108.87,
+        "hold_mean": 122.68
+      },
+      {
+        "byte": 26,
+        "delta_mean": -12.89,
+        "baseline_mean": 108.39,
+        "hold_mean": 95.49
+      },
+      {
+        "byte": 61,
+        "delta_mean": -12.86,
+        "baseline_mean": 133.32,
+        "hold_mean": 120.46
+      },
+      {
+        "byte": 60,
+        "delta_mean": -11.7,
+        "baseline_mean": 132.52,
+        "hold_mean": 120.81
+      },
+      {
+        "byte": 24,
+        "delta_mean": -10.96,
+        "baseline_mean": 118.72,
+        "hold_mean": 107.75
+      },
+      {
+        "byte": 38,
+        "delta_mean": -8.88,
+        "baseline_mean": 91.29,
+        "hold_mean": 82.41
+      },
+      {
+        "byte": 25,
+        "delta_mean": -8.86,
+        "baseline_mean": 93.73,
+        "hold_mean": 84.88
+      },
+      {
+        "byte": 35,
+        "delta_mean": 8.25,
+        "baseline_mean": 100.72,
+        "hold_mean": 108.97
+      },
+      {
+        "byte": 34,
+        "delta_mean": 8.13,
+        "baseline_mean": 101.18,
+        "hold_mean": 109.3
+      },
+      {
+        "byte": 40,
+        "delta_mean": -5.69,
+        "baseline_mean": 27.55,
+        "hold_mean": 21.86
+      },
+      {
+        "byte": 5,
+        "delta_mean": 3.2,
+        "baseline_mean": 43.24,
+        "hold_mean": 46.45
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 11212.5,
+        "hold_mean": 12010.4
+      }
+    ]
+  },
+  "DPAD_UP": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.886,
+        "baseline_p1": 0.114,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.349,
+        "baseline_p1": 0.493,
+        "hold_p1": 0.144
+      },
+      {
+        "byte": 60,
+        "bit": 5,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 60,
+        "bit": 6,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 60,
+        "bit": 7,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 0,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 1,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 2,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 3,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 4,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 5,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 6,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 61,
+        "bit": 7,
+        "delta": -0.225,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.442
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 61,
+        "delta_mean": -57.33,
+        "baseline_mean": 170.0,
+        "hold_mean": 112.67
+      },
+      {
+        "byte": 60,
+        "delta_mean": -53.36,
+        "baseline_mean": 167.04,
+        "hold_mean": 113.68
+      },
+      {
+        "byte": 31,
+        "delta_mean": 35.09,
+        "baseline_mean": 89.08,
+        "hold_mean": 124.16
+      },
+      {
+        "byte": 30,
+        "delta_mean": 33.1,
+        "baseline_mean": 90.87,
+        "hold_mean": 123.97
+      },
+      {
+        "byte": 26,
+        "delta_mean": -27.93,
+        "baseline_mean": 121.95,
+        "hold_mean": 94.02
+      },
+      {
+        "byte": 4,
+        "delta_mean": -24.33,
+        "baseline_mean": 143.06,
+        "hold_mean": 118.73
+      },
+      {
+        "byte": 63,
+        "delta_mean": 23.82,
+        "baseline_mean": 121.1,
+        "hold_mean": 144.92
+      },
+      {
+        "byte": 62,
+        "delta_mean": 21.1,
+        "baseline_mean": 121.42,
+        "hold_mean": 142.52
+      },
+      {
+        "byte": 35,
+        "delta_mean": 13.96,
+        "baseline_mean": 76.85,
+        "hold_mean": 90.81
+      },
+      {
+        "byte": 34,
+        "delta_mean": 13.07,
+        "baseline_mean": 77.93,
+        "hold_mean": 91.0
+      },
+      {
+        "byte": 42,
+        "delta_mean": -12.15,
+        "baseline_mean": 146.03,
+        "hold_mean": 133.87
+      },
+      {
+        "byte": 38,
+        "delta_mean": -7.64,
+        "baseline_mean": 103.98,
+        "hold_mean": 96.34
+      },
+      {
+        "byte": 28,
+        "delta_mean": -6.85,
+        "baseline_mean": 114.07,
+        "hold_mean": 107.22
+      },
+      {
+        "byte": 24,
+        "delta_mean": -6.14,
+        "baseline_mean": 117.73,
+        "hold_mean": 111.59
+      },
+      {
+        "byte": 33,
+        "delta_mean": 5.65,
+        "baseline_mean": 92.57,
+        "hold_mean": 98.22
+      },
+      {
+        "byte": 32,
+        "delta_mean": 5.14,
+        "baseline_mean": 94.38,
+        "hold_mean": 99.52
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 13077.5,
+        "hold_mean": 13875.4
+      }
+    ]
+  },
+  "DPAD_RIGHT": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.908,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.43,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.426
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.347,
+        "baseline_p1": 0.868,
+        "hold_p1": 0.52
+      },
+      {
+        "byte": 38,
+        "bit": 5,
+        "delta": 0.334,
+        "baseline_p1": 0.445,
+        "hold_p1": 0.779
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": 0.316,
+        "baseline_p1": 0.459,
+        "hold_p1": 0.775
+      },
+      {
+        "byte": 4,
+        "bit": 7,
+        "delta": 0.312,
+        "baseline_p1": 0.292,
+        "hold_p1": 0.605
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 4,
+        "delta_mean": 41.16,
+        "baseline_mean": 96.24,
+        "hold_mean": 137.4
+      },
+      {
+        "byte": 63,
+        "delta_mean": 37.68,
+        "baseline_mean": 76.85,
+        "hold_mean": 114.53
+      },
+      {
+        "byte": 62,
+        "delta_mean": 35.47,
+        "baseline_mean": 78.26,
+        "hold_mean": 113.73
+      },
+      {
+        "byte": 38,
+        "delta_mean": 33.21,
+        "baseline_mean": 58.57,
+        "hold_mean": 91.78
+      },
+      {
+        "byte": 31,
+        "delta_mean": -29.7,
+        "baseline_mean": 136.82,
+        "hold_mean": 107.11
+      },
+      {
+        "byte": 30,
+        "delta_mean": -28.58,
+        "baseline_mean": 136.1,
+        "hold_mean": 107.52
+      },
+      {
+        "byte": 28,
+        "delta_mean": 22.46,
+        "baseline_mean": 96.83,
+        "hold_mean": 119.29
+      },
+      {
+        "byte": 32,
+        "delta_mean": 20.49,
+        "baseline_mean": 92.66,
+        "hold_mean": 113.14
+      },
+      {
+        "byte": 33,
+        "delta_mean": 20.16,
+        "baseline_mean": 91.4,
+        "hold_mean": 111.56
+      },
+      {
+        "byte": 24,
+        "delta_mean": 16.87,
+        "baseline_mean": 102.23,
+        "hold_mean": 119.1
+      },
+      {
+        "byte": 42,
+        "delta_mean": -13.47,
+        "baseline_mean": 107.97,
+        "hold_mean": 94.5
+      },
+      {
+        "byte": 34,
+        "delta_mean": 12.67,
+        "baseline_mean": 83.66,
+        "hold_mean": 96.34
+      },
+      {
+        "byte": 25,
+        "delta_mean": 12.32,
+        "baseline_mean": 84.42,
+        "hold_mean": 96.74
+      },
+      {
+        "byte": 35,
+        "delta_mean": 12.16,
+        "baseline_mean": 83.84,
+        "hold_mean": 96.0
+      },
+      {
+        "byte": 61,
+        "delta_mean": -8.06,
+        "baseline_mean": 104.79,
+        "hold_mean": 96.74
+      },
+      {
+        "byte": 60,
+        "delta_mean": -7.59,
+        "baseline_mean": 106.78,
+        "hold_mean": 99.18
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 14942.5,
+        "hold_mean": 15740.4
+      }
+    ]
+  },
+  "DPAD_DOWN": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.669,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.812
+      },
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": -0.438,
+        "baseline_p1": 0.669,
+        "hold_p1": 0.231
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": 0.437,
+        "baseline_p1": 0.249,
+        "hold_p1": 0.686
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.336,
+        "baseline_p1": 0.591,
+        "hold_p1": 0.256
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.311,
+        "baseline_p1": 0.689,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": -0.311,
+        "baseline_p1": 0.311,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": 0.308,
+        "baseline_p1": 0.692,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 42,
+        "bit": 3,
+        "delta": -0.305,
+        "baseline_p1": 0.667,
+        "hold_p1": 0.362
+      },
+      {
+        "byte": 36,
+        "bit": 3,
+        "delta": 0.294,
+        "baseline_p1": 0.475,
+        "hold_p1": 0.769
+      },
+      {
+        "byte": 62,
+        "bit": 5,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 62,
+        "bit": 6,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 62,
+        "bit": 7,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 63,
+        "bit": 0,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 63,
+        "bit": 1,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 63,
+        "bit": 2,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      },
+      {
+        "byte": 63,
+        "bit": 3,
+        "delta": 0.277,
+        "baseline_p1": 0.196,
+        "hold_p1": 0.474
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": 70.76,
+        "baseline_mean": 50.07,
+        "hold_mean": 120.83
+      },
+      {
+        "byte": 62,
+        "delta_mean": 67.21,
+        "baseline_mean": 52.39,
+        "hold_mean": 119.6
+      },
+      {
+        "byte": 25,
+        "delta_mean": 52.59,
+        "baseline_mean": 149.04,
+        "hold_mean": 201.63
+      },
+      {
+        "byte": 26,
+        "delta_mean": 34.37,
+        "baseline_mean": 129.42,
+        "hold_mean": 163.78
+      },
+      {
+        "byte": 24,
+        "delta_mean": 31.13,
+        "baseline_mean": 134.94,
+        "hold_mean": 166.07
+      },
+      {
+        "byte": 40,
+        "delta_mean": 28.43,
+        "baseline_mean": 72.44,
+        "hold_mean": 100.87
+      },
+      {
+        "byte": 34,
+        "delta_mean": -25.52,
+        "baseline_mean": 99.0,
+        "hold_mean": 73.48
+      },
+      {
+        "byte": 35,
+        "delta_mean": -25.37,
+        "baseline_mean": 98.39,
+        "hold_mean": 73.02
+      },
+      {
+        "byte": 38,
+        "delta_mean": -20.11,
+        "baseline_mean": 61.98,
+        "hold_mean": 41.87
+      },
+      {
+        "byte": 28,
+        "delta_mean": -18.68,
+        "baseline_mean": 99.74,
+        "hold_mean": 81.06
+      },
+      {
+        "byte": 31,
+        "delta_mean": 16.88,
+        "baseline_mean": 110.62,
+        "hold_mean": 127.5
+      },
+      {
+        "byte": 30,
+        "delta_mean": 16.06,
+        "baseline_mean": 110.59,
+        "hold_mean": 126.65
+      },
+      {
+        "byte": 42,
+        "delta_mean": -14.17,
+        "baseline_mean": 63.93,
+        "hold_mean": 49.75
+      },
+      {
+        "byte": 4,
+        "delta_mean": 10.9,
+        "baseline_mean": 126.57,
+        "hold_mean": 137.47
+      },
+      {
+        "byte": 61,
+        "delta_mean": -8.14,
+        "baseline_mean": 151.95,
+        "hold_mean": 143.81
+      },
+      {
+        "byte": 60,
+        "delta_mean": -7.48,
+        "baseline_mean": 150.82,
+        "hold_mean": 143.34
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 16807.5,
+        "hold_mean": 17605.4
+      }
+    ]
+  },
+  "DPAD_LEFT": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": 0.814,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.814
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": -0.686,
+        "baseline_p1": 0.808,
+        "hold_p1": 0.122
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": 0.631,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.631
+      },
+      {
+        "byte": 42,
+        "bit": 7,
+        "delta": 0.631,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.631
+      },
+      {
+        "byte": 43,
+        "bit": 0,
+        "delta": 0.631,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.631
+      },
+      {
+        "byte": 43,
+        "bit": 1,
+        "delta": -0.631,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.369
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.464,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.536
+      },
+      {
+        "byte": 29,
+        "bit": 0,
+        "delta": 0.446,
+        "baseline_p1": 0.107,
+        "hold_p1": 0.554
+      },
+      {
+        "byte": 36,
+        "bit": 6,
+        "delta": 0.445,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.445
+      },
+      {
+        "byte": 36,
+        "bit": 7,
+        "delta": 0.445,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.445
+      },
+      {
+        "byte": 37,
+        "bit": 0,
+        "delta": 0.445,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.445
+      },
+      {
+        "byte": 37,
+        "bit": 1,
+        "delta": -0.445,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.555
+      },
+      {
+        "byte": 62,
+        "bit": 1,
+        "delta": -0.42,
+        "baseline_p1": 0.747,
+        "hold_p1": 0.327
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.403,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.547
+      },
+      {
+        "byte": 29,
+        "bit": 1,
+        "delta": -0.397,
+        "baseline_p1": 0.893,
+        "hold_p1": 0.496
+      },
+      {
+        "byte": 26,
+        "bit": 7,
+        "delta": -0.381,
+        "baseline_p1": 0.824,
+        "hold_p1": 0.443
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 42,
+        "delta_mean": 123.49,
+        "baseline_mean": 33.82,
+        "hold_mean": 157.31
+      },
+      {
+        "byte": 36,
+        "delta_mean": 84.22,
+        "baseline_mean": 39.67,
+        "hold_mean": 123.89
+      },
+      {
+        "byte": 38,
+        "delta_mean": 58.85,
+        "baseline_mean": 68.23,
+        "hold_mean": 127.08
+      },
+      {
+        "byte": 26,
+        "delta_mean": -48.62,
+        "baseline_mean": 171.34,
+        "hold_mean": 122.72
+      },
+      {
+        "byte": 25,
+        "delta_mean": -47.28,
+        "baseline_mean": 242.19,
+        "hold_mean": 194.92
+      },
+      {
+        "byte": 24,
+        "delta_mean": -43.59,
+        "baseline_mean": 162.02,
+        "hold_mean": 118.43
+      },
+      {
+        "byte": 4,
+        "delta_mean": -40.05,
+        "baseline_mean": 149.31,
+        "hold_mean": 109.26
+      },
+      {
+        "byte": 28,
+        "delta_mean": 37.05,
+        "baseline_mean": 94.05,
+        "hold_mean": 131.1
+      },
+      {
+        "byte": 32,
+        "delta_mean": 32.56,
+        "baseline_mean": 78.7,
+        "hold_mean": 111.26
+      },
+      {
+        "byte": 33,
+        "delta_mean": 32.28,
+        "baseline_mean": 77.43,
+        "hold_mean": 109.71
+      },
+      {
+        "byte": 40,
+        "delta_mean": 29.01,
+        "baseline_mean": 153.51,
+        "hold_mean": 182.53
+      },
+      {
+        "byte": 63,
+        "delta_mean": 24.37,
+        "baseline_mean": 43.08,
+        "hold_mean": 67.46
+      },
+      {
+        "byte": 62,
+        "delta_mean": 23.3,
+        "baseline_mean": 46.83,
+        "hold_mean": 70.13
+      },
+      {
+        "byte": 61,
+        "delta_mean": -22.72,
+        "baseline_mean": 117.6,
+        "hold_mean": 94.88
+      },
+      {
+        "byte": 60,
+        "delta_mean": -21.35,
+        "baseline_mean": 118.54,
+        "hold_mean": 97.19
+      },
+      {
+        "byte": 31,
+        "delta_mean": 12.22,
+        "baseline_mean": 111.2,
+        "hold_mean": 123.42
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 18672.5,
+        "hold_mean": 19470.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": -168.1,
+        "baseline_mean": -4844.9,
+        "hold_mean": -5013.0
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": -164.9,
+        "baseline_mean": -4399.3,
+        "hold_mean": -4564.2
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": -51.9,
+        "baseline_mean": 15938.6,
+        "hold_mean": 15886.6
+      }
+    ]
+  },
+  "MENU": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": -0.848,
+        "baseline_p1": 0.977,
+        "hold_p1": 0.129
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": 0.557,
+        "baseline_p1": 0.292,
+        "hold_p1": 0.849
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.491,
+        "baseline_p1": 0.137,
+        "hold_p1": 0.628
+      },
+      {
+        "byte": 62,
+        "bit": 2,
+        "delta": -0.42,
+        "baseline_p1": 0.539,
+        "hold_p1": 0.119
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.409,
+        "baseline_p1": 0.459,
+        "hold_p1": 0.868
+      },
+      {
+        "byte": 62,
+        "bit": 1,
+        "delta": 0.376,
+        "baseline_p1": 0.482,
+        "hold_p1": 0.858
+      },
+      {
+        "byte": 62,
+        "bit": 0,
+        "delta": 0.358,
+        "baseline_p1": 0.427,
+        "hold_p1": 0.785
+      },
+      {
+        "byte": 36,
+        "bit": 3,
+        "delta": -0.232,
+        "baseline_p1": 0.427,
+        "hold_p1": 0.195
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.219,
+        "baseline_p1": 0.219,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": 0.219,
+        "baseline_p1": 0.781,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 27,
+        "bit": 0,
+        "delta": -0.207,
+        "baseline_p1": 0.221,
+        "hold_p1": 0.015
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 61,
+        "delta_mean": 45.4,
+        "baseline_mean": 65.79,
+        "hold_mean": 111.19
+      },
+      {
+        "byte": 60,
+        "delta_mean": 43.31,
+        "baseline_mean": 69.32,
+        "hold_mean": 112.64
+      },
+      {
+        "byte": 25,
+        "delta_mean": 41.82,
+        "baseline_mean": 177.55,
+        "hold_mean": 219.37
+      },
+      {
+        "byte": 42,
+        "delta_mean": -41.53,
+        "baseline_mean": 225.01,
+        "hold_mean": 183.48
+      },
+      {
+        "byte": 31,
+        "delta_mean": 27.63,
+        "baseline_mean": 110.62,
+        "hold_mean": 138.25
+      },
+      {
+        "byte": 24,
+        "delta_mean": 26.42,
+        "baseline_mean": 120.06,
+        "hold_mean": 146.48
+      },
+      {
+        "byte": 40,
+        "delta_mean": 25.11,
+        "baseline_mean": 149.46,
+        "hold_mean": 174.57
+      },
+      {
+        "byte": 30,
+        "delta_mean": 24.08,
+        "baseline_mean": 112.48,
+        "hold_mean": 136.56
+      },
+      {
+        "byte": 33,
+        "delta_mean": -17.54,
+        "baseline_mean": 101.3,
+        "hold_mean": 83.76
+      },
+      {
+        "byte": 32,
+        "delta_mean": -16.95,
+        "baseline_mean": 102.37,
+        "hold_mean": 85.43
+      },
+      {
+        "byte": 28,
+        "delta_mean": -13.44,
+        "baseline_mean": 117.61,
+        "hold_mean": 104.17
+      },
+      {
+        "byte": 62,
+        "delta_mean": -10.72,
+        "baseline_mean": 46.47,
+        "hold_mean": 35.74
+      },
+      {
+        "byte": 63,
+        "delta_mean": -10.52,
+        "baseline_mean": 44.25,
+        "hold_mean": 33.73
+      },
+      {
+        "byte": 38,
+        "delta_mean": -8.22,
+        "baseline_mean": 200.84,
+        "hold_mean": 192.62
+      },
+      {
+        "byte": 4,
+        "delta_mean": 6.74,
+        "baseline_mean": 121.19,
+        "hold_mean": 127.93
+      },
+      {
+        "byte": 34,
+        "delta_mean": -6.05,
+        "baseline_mean": 102.45,
+        "hold_mean": 96.4
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 20537.5,
+        "hold_mean": 21335.4
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": -41.5,
+        "baseline_mean": -2591.0,
+        "hold_mean": -2632.5
+      }
+    ]
+  },
+  "STEAM": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": -0.863,
+        "baseline_p1": 0.886,
+        "hold_p1": 0.023
+      },
+      {
+        "byte": 62,
+        "bit": 0,
+        "delta": -0.64,
+        "baseline_p1": 0.765,
+        "hold_p1": 0.125
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.637,
+        "baseline_p1": 0.363,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.622,
+        "baseline_p1": 0.637,
+        "hold_p1": 0.015
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.479,
+        "baseline_p1": 0.114,
+        "hold_p1": 0.593
+      },
+      {
+        "byte": 60,
+        "bit": 0,
+        "delta": -0.321,
+        "baseline_p1": 0.747,
+        "hold_p1": 0.426
+      },
+      {
+        "byte": 40,
+        "bit": 7,
+        "delta": -0.286,
+        "baseline_p1": 0.434,
+        "hold_p1": 0.148
+      },
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": 0.274,
+        "baseline_p1": 0.578,
+        "hold_p1": 0.852
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.251,
+        "baseline_p1": 0.493,
+        "hold_p1": 0.744
+      },
+      {
+        "byte": 4,
+        "bit": 7,
+        "delta": 0.25,
+        "baseline_p1": 0.363,
+        "hold_p1": 0.613
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 25,
+        "delta_mean": -47.06,
+        "baseline_mean": 160.1,
+        "hold_mean": 113.05
+      },
+      {
+        "byte": 42,
+        "delta_mean": -38.57,
+        "baseline_mean": 76.73,
+        "hold_mean": 38.15
+      },
+      {
+        "byte": 4,
+        "delta_mean": 31.69,
+        "baseline_mean": 111.2,
+        "hold_mean": 142.89
+      },
+      {
+        "byte": 40,
+        "delta_mean": -22.48,
+        "baseline_mean": 127.08,
+        "hold_mean": 104.6
+      },
+      {
+        "byte": 26,
+        "delta_mean": 21.75,
+        "baseline_mean": 83.99,
+        "hold_mean": 105.74
+      },
+      {
+        "byte": 36,
+        "delta_mean": -17.86,
+        "baseline_mean": 188.17,
+        "hold_mean": 170.31
+      },
+      {
+        "byte": 33,
+        "delta_mean": 13.84,
+        "baseline_mean": 58.8,
+        "hold_mean": 72.65
+      },
+      {
+        "byte": 32,
+        "delta_mean": 13.14,
+        "baseline_mean": 62.02,
+        "hold_mean": 75.16
+      },
+      {
+        "byte": 28,
+        "delta_mean": 9.83,
+        "baseline_mean": 102.81,
+        "hold_mean": 112.63
+      },
+      {
+        "byte": 62,
+        "delta_mean": -8.64,
+        "baseline_mean": 28.34,
+        "hold_mean": 19.7
+      },
+      {
+        "byte": 61,
+        "delta_mean": -8.54,
+        "baseline_mean": 94.9,
+        "hold_mean": 86.36
+      },
+      {
+        "byte": 30,
+        "delta_mean": 8.36,
+        "baseline_mean": 138.99,
+        "hold_mean": 147.35
+      },
+      {
+        "byte": 63,
+        "delta_mean": -8.04,
+        "baseline_mean": 26.2,
+        "hold_mean": 18.16
+      },
+      {
+        "byte": 60,
+        "delta_mean": -7.93,
+        "baseline_mean": 96.92,
+        "hold_mean": 88.98
+      },
+      {
+        "byte": 31,
+        "delta_mean": 6.89,
+        "baseline_mean": 143.22,
+        "hold_mean": 150.11
+      },
+      {
+        "byte": 35,
+        "delta_mean": -5.67,
+        "baseline_mean": 105.38,
+        "hold_mean": 99.7
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 22402.5,
+        "hold_mean": 23200.4
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 42.4,
+        "baseline_mean": -23.0,
+        "hold_mean": 19.4
+      }
+    ]
+  },
+  "QAM": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.965,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.035
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.965,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.035
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": -0.965,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.035
+      },
+      {
+        "byte": 5,
+        "bit": 5,
+        "delta": 0.965,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.965
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.329,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.528
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": 0.324,
+        "baseline_p1": 0.372,
+        "hold_p1": 0.696
+      },
+      {
+        "byte": 27,
+        "bit": 0,
+        "delta": -0.295,
+        "baseline_p1": 0.733,
+        "hold_p1": 0.438
+      },
+      {
+        "byte": 27,
+        "bit": 1,
+        "delta": 0.295,
+        "baseline_p1": 0.267,
+        "hold_p1": 0.562
+      },
+      {
+        "byte": 32,
+        "bit": 5,
+        "delta": -0.287,
+        "baseline_p1": 0.509,
+        "hold_p1": 0.222
+      },
+      {
+        "byte": 38,
+        "bit": 7,
+        "delta": -0.285,
+        "baseline_p1": 0.352,
+        "hold_p1": 0.067
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": -0.285,
+        "baseline_p1": 0.352,
+        "hold_p1": 0.067
+      },
+      {
+        "byte": 39,
+        "bit": 1,
+        "delta": -0.285,
+        "baseline_p1": 0.352,
+        "hold_p1": 0.067
+      },
+      {
+        "byte": 39,
+        "bit": 2,
+        "delta": 0.285,
+        "baseline_p1": 0.648,
+        "hold_p1": 0.933
+      },
+      {
+        "byte": 32,
+        "bit": 6,
+        "delta": -0.266,
+        "baseline_p1": 0.489,
+        "hold_p1": 0.222
+      },
+      {
+        "byte": 32,
+        "bit": 7,
+        "delta": -0.266,
+        "baseline_p1": 0.489,
+        "hold_p1": 0.222
+      },
+      {
+        "byte": 33,
+        "bit": 0,
+        "delta": -0.266,
+        "baseline_p1": 0.489,
+        "hold_p1": 0.222
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 33,
+        "delta_mean": -67.88,
+        "baseline_mean": 124.59,
+        "hold_mean": 56.71
+      },
+      {
+        "byte": 32,
+        "delta_mean": -65.96,
+        "baseline_mean": 123.89,
+        "hold_mean": 57.93
+      },
+      {
+        "byte": 63,
+        "delta_mean": 40.62,
+        "baseline_mean": 32.02,
+        "hold_mean": 72.65
+      },
+      {
+        "byte": 62,
+        "delta_mean": 39.79,
+        "baseline_mean": 33.23,
+        "hold_mean": 73.01
+      },
+      {
+        "byte": 31,
+        "delta_mean": 30.9,
+        "baseline_mean": 79.18,
+        "hold_mean": 110.08
+      },
+      {
+        "byte": 25,
+        "delta_mean": -28.37,
+        "baseline_mean": 148.46,
+        "hold_mean": 120.09
+      },
+      {
+        "byte": 26,
+        "delta_mean": -24.77,
+        "baseline_mean": 135.99,
+        "hold_mean": 111.22
+      },
+      {
+        "byte": 30,
+        "delta_mean": 24.6,
+        "baseline_mean": 85.62,
+        "hold_mean": 110.22
+      },
+      {
+        "byte": 42,
+        "delta_mean": 23.46,
+        "baseline_mean": 202.35,
+        "hold_mean": 225.81
+      },
+      {
+        "byte": 4,
+        "delta_mean": -21.64,
+        "baseline_mean": 141.53,
+        "hold_mean": 119.89
+      },
+      {
+        "byte": 38,
+        "delta_mean": -19.31,
+        "baseline_mean": 98.32,
+        "hold_mean": 79.01
+      },
+      {
+        "byte": 24,
+        "delta_mean": -16.06,
+        "baseline_mean": 136.87,
+        "hold_mean": 120.81
+      },
+      {
+        "byte": 40,
+        "delta_mean": -14.73,
+        "baseline_mean": 155.5,
+        "hold_mean": 140.77
+      },
+      {
+        "byte": 28,
+        "delta_mean": -8.75,
+        "baseline_mean": 125.97,
+        "hold_mean": 117.22
+      },
+      {
+        "byte": 36,
+        "delta_mean": 7.75,
+        "baseline_mean": 228.95,
+        "hold_mean": 236.7
+      },
+      {
+        "byte": 61,
+        "delta_mean": 6.66,
+        "baseline_mean": 111.2,
+        "hold_mean": 117.86
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 24267.5,
+        "hold_mean": 25065.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": 53.6,
+        "baseline_mean": -5111.7,
+        "hold_mean": -5058.1
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": 50.8,
+        "baseline_mean": -4659.6,
+        "hold_mean": -4608.8
+      }
+    ]
+  },
+  "LEFT_PAD_TOUCH": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.908,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.908
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.765,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.092
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": 0.551,
+        "baseline_p1": 0.203,
+        "hold_p1": 0.754
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": -0.522,
+        "baseline_p1": 0.84,
+        "hold_p1": 0.318
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.501,
+        "baseline_p1": 0.404,
+        "hold_p1": 0.906
+      },
+      {
+        "byte": 42,
+        "bit": 6,
+        "delta": -0.501,
+        "baseline_p1": 0.596,
+        "hold_p1": 0.094
+      },
+      {
+        "byte": 27,
+        "bit": 0,
+        "delta": -0.235,
+        "baseline_p1": 0.623,
+        "hold_p1": 0.388
+      },
+      {
+        "byte": 27,
+        "bit": 1,
+        "delta": 0.235,
+        "baseline_p1": 0.377,
+        "hold_p1": 0.612
+      },
+      {
+        "byte": 26,
+        "bit": 7,
+        "delta": -0.232,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.387
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": 0.227,
+        "baseline_p1": 0.616,
+        "hold_p1": 0.843
+      },
+      {
+        "byte": 40,
+        "bit": 3,
+        "delta": -0.22,
+        "baseline_p1": 0.689,
+        "hold_p1": 0.469
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 63,
+        "delta_mean": -41.3,
+        "baseline_mean": 118.77,
+        "hold_mean": 77.46
+      },
+      {
+        "byte": 62,
+        "delta_mean": -40.38,
+        "baseline_mean": 118.16,
+        "hold_mean": 77.78
+      },
+      {
+        "byte": 35,
+        "delta_mean": -39.78,
+        "baseline_mean": 89.08,
+        "hold_mean": 49.3
+      },
+      {
+        "byte": 34,
+        "delta_mean": -38.71,
+        "baseline_mean": 88.48,
+        "hold_mean": 49.76
+      },
+      {
+        "byte": 26,
+        "delta_mean": -34.98,
+        "baseline_mean": 139.2,
+        "hold_mean": 104.22
+      },
+      {
+        "byte": 25,
+        "delta_mean": -27.16,
+        "baseline_mean": 133.9,
+        "hold_mean": 106.74
+      },
+      {
+        "byte": 31,
+        "delta_mean": -26.04,
+        "baseline_mean": 146.13,
+        "hold_mean": 120.09
+      },
+      {
+        "byte": 4,
+        "delta_mean": -24.76,
+        "baseline_mean": 143.23,
+        "hold_mean": 118.47
+      },
+      {
+        "byte": 30,
+        "delta_mean": -23.53,
+        "baseline_mean": 144.08,
+        "hold_mean": 120.55
+      },
+      {
+        "byte": 61,
+        "delta_mean": 20.64,
+        "baseline_mean": 113.53,
+        "hold_mean": 134.17
+      },
+      {
+        "byte": 24,
+        "delta_mean": -20.51,
+        "baseline_mean": 131.03,
+        "hold_mean": 110.52
+      },
+      {
+        "byte": 60,
+        "delta_mean": 19.04,
+        "baseline_mean": 113.84,
+        "hold_mean": 132.89
+      },
+      {
+        "byte": 33,
+        "delta_mean": 12.84,
+        "baseline_mean": 60.55,
+        "hold_mean": 73.39
+      },
+      {
+        "byte": 32,
+        "delta_mean": 11.95,
+        "baseline_mean": 62.23,
+        "hold_mean": 74.17
+      },
+      {
+        "byte": 42,
+        "delta_mean": -7.21,
+        "baseline_mean": 191.5,
+        "hold_mean": 184.28
+      },
+      {
+        "byte": 40,
+        "delta_mean": -6.96,
+        "baseline_mean": 151.22,
+        "hold_mean": 144.26
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 26132.5,
+        "hold_mean": 26930.4
+      }
+    ]
+  },
+  "RIGHT_PAD_TOUCH": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": -0.705,
+        "baseline_p1": 1.0,
+        "hold_p1": 0.295
+      },
+      {
+        "byte": 5,
+        "bit": 4,
+        "delta": 0.705,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.705
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": -0.653,
+        "baseline_p1": 0.813,
+        "hold_p1": 0.16
+      },
+      {
+        "byte": 39,
+        "bit": 0,
+        "delta": -0.622,
+        "baseline_p1": 0.763,
+        "hold_p1": 0.141
+      },
+      {
+        "byte": 39,
+        "bit": 1,
+        "delta": -0.622,
+        "baseline_p1": 0.763,
+        "hold_p1": 0.141
+      },
+      {
+        "byte": 39,
+        "bit": 2,
+        "delta": 0.622,
+        "baseline_p1": 0.237,
+        "hold_p1": 0.859
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.561,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.295
+      },
+      {
+        "byte": 36,
+        "bit": 6,
+        "delta": 0.537,
+        "baseline_p1": 0.463,
+        "hold_p1": 1.0
+      },
+      {
+        "byte": 38,
+        "bit": 6,
+        "delta": -0.534,
+        "baseline_p1": 0.71,
+        "hold_p1": 0.176
+      },
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.519,
+        "baseline_p1": 0.792,
+        "hold_p1": 0.273
+      },
+      {
+        "byte": 25,
+        "bit": 0,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      },
+      {
+        "byte": 25,
+        "bit": 1,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      },
+      {
+        "byte": 25,
+        "bit": 2,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      },
+      {
+        "byte": 25,
+        "bit": 3,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      },
+      {
+        "byte": 25,
+        "bit": 4,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      },
+      {
+        "byte": 25,
+        "bit": 5,
+        "delta": -0.457,
+        "baseline_p1": 0.619,
+        "hold_p1": 0.161
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 25,
+        "delta_mean": -116.63,
+        "baseline_mean": 157.77,
+        "hold_mean": 41.14
+      },
+      {
+        "byte": 24,
+        "delta_mean": -64.57,
+        "baseline_mean": 136.96,
+        "hold_mean": 72.4
+      },
+      {
+        "byte": 26,
+        "delta_mean": 63.76,
+        "baseline_mean": 100.06,
+        "hold_mean": 163.82
+      },
+      {
+        "byte": 40,
+        "delta_mean": -50.75,
+        "baseline_mean": 180.95,
+        "hold_mean": 130.2
+      },
+      {
+        "byte": 35,
+        "delta_mean": -47.71,
+        "baseline_mean": 108.87,
+        "hold_mean": 61.16
+      },
+      {
+        "byte": 34,
+        "delta_mean": -46.0,
+        "baseline_mean": 107.81,
+        "hold_mean": 61.81
+      },
+      {
+        "byte": 4,
+        "delta_mean": 41.32,
+        "baseline_mean": 95.82,
+        "hold_mean": 137.14
+      },
+      {
+        "byte": 63,
+        "delta_mean": -36.19,
+        "baseline_mean": 54.73,
+        "hold_mean": 18.53
+      },
+      {
+        "byte": 62,
+        "delta_mean": -35.68,
+        "baseline_mean": 55.66,
+        "hold_mean": 19.98
+      },
+      {
+        "byte": 38,
+        "delta_mean": -35.01,
+        "baseline_mean": 99.77,
+        "hold_mean": 64.76
+      },
+      {
+        "byte": 32,
+        "delta_mean": -22.51,
+        "baseline_mean": 92.49,
+        "hold_mean": 69.98
+      },
+      {
+        "byte": 33,
+        "delta_mean": -21.67,
+        "baseline_mean": 90.24,
+        "hold_mean": 68.57
+      },
+      {
+        "byte": 36,
+        "delta_mean": 21.55,
+        "baseline_mean": 202.11,
+        "hold_mean": 223.66
+      },
+      {
+        "byte": 31,
+        "delta_mean": -15.41,
+        "baseline_mean": 119.93,
+        "hold_mean": 104.52
+      },
+      {
+        "byte": 30,
+        "delta_mean": -11.84,
+        "baseline_mean": 116.91,
+        "hold_mean": 105.07
+      },
+      {
+        "byte": 28,
+        "delta_mean": -8.71,
+        "baseline_mean": 137.24,
+        "hold_mean": 128.53
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 27997.5,
+        "hold_mean": 28795.4
+      },
+      {
+        "lo": 38,
+        "hi": 39,
+        "delta_mean": 124.1,
+        "baseline_mean": -5215.4,
+        "hold_mean": -5091.3
+      },
+      {
+        "lo": 26,
+        "hi": 27,
+        "delta_mean": 122.9,
+        "baseline_mean": -4763.9,
+        "hold_mean": -4641.0
+      },
+      {
+        "lo": 40,
+        "hi": 41,
+        "delta_mean": -60.7,
+        "baseline_mean": 958.9,
+        "hold_mean": 898.2
+      },
+      {
+        "lo": 24,
+        "hi": 25,
+        "delta_mean": 52.5,
+        "baseline_mean": -21.4,
+        "hold_mean": 31.1
+      },
+      {
+        "lo": 28,
+        "hi": 29,
+        "delta_mean": 42.4,
+        "baseline_mean": 15824.5,
+        "hold_mean": 15867.0
+      }
+    ]
+  },
+  "LEFT_PAD_PRESS": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": -0.609,
+        "baseline_p1": 0.9,
+        "hold_p1": 0.291
+      },
+      {
+        "byte": 40,
+        "bit": 7,
+        "delta": 0.609,
+        "baseline_p1": 0.1,
+        "hold_p1": 0.709
+      },
+      {
+        "byte": 42,
+        "bit": 7,
+        "delta": -0.571,
+        "baseline_p1": 0.571,
+        "hold_p1": 0.0
+      },
+      {
+        "byte": 36,
+        "bit": 4,
+        "delta": 0.49,
+        "baseline_p1": 0.068,
+        "hold_p1": 0.558
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.49,
+        "baseline_p1": 0.932,
+        "hold_p1": 0.442
+      },
+      {
+        "byte": 5,
+        "bit": 3,
+        "delta": 0.439,
+        "baseline_p1": 0.0,
+        "hold_p1": 0.439
+      },
+      {
+        "byte": 36,
+        "bit": 3,
+        "delta": 0.354,
+        "baseline_p1": 0.185,
+        "hold_p1": 0.539
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": -0.352,
+        "baseline_p1": 0.74,
+        "hold_p1": 0.388
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.329,
+        "baseline_p1": 0.144,
+        "hold_p1": 0.472
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": -0.295,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.561
+      },
+      {
+        "byte": 36,
+        "bit": 2,
+        "delta": -0.263,
+        "baseline_p1": 0.623,
+        "hold_p1": 0.36
+      },
+      {
+        "byte": 42,
+        "bit": 5,
+        "delta": 0.245,
+        "baseline_p1": 0.429,
+        "hold_p1": 0.674
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 42,
+        "delta_mean": -57.15,
+        "baseline_mean": 129.48,
+        "hold_mean": 72.33
+      },
+      {
+        "byte": 25,
+        "delta_mean": 42.9,
+        "baseline_mean": 39.01,
+        "hold_mean": 81.91
+      },
+      {
+        "byte": 40,
+        "delta_mean": 30.85,
+        "baseline_mean": 107.39,
+        "hold_mean": 138.25
+      },
+      {
+        "byte": 63,
+        "delta_mean": -30.69,
+        "baseline_mean": 55.89,
+        "hold_mean": 25.2
+      },
+      {
+        "byte": 62,
+        "delta_mean": -30.18,
+        "baseline_mean": 56.68,
+        "hold_mean": 26.5
+      },
+      {
+        "byte": 61,
+        "delta_mean": -25.98,
+        "baseline_mean": 169.42,
+        "hold_mean": 143.44
+      },
+      {
+        "byte": 60,
+        "delta_mean": -24.26,
+        "baseline_mean": 166.5,
+        "hold_mean": 142.23
+      },
+      {
+        "byte": 26,
+        "delta_mean": 18.75,
+        "baseline_mean": 112.36,
+        "hold_mean": 131.11
+      },
+      {
+        "byte": 35,
+        "delta_mean": 12.43,
+        "baseline_mean": 98.39,
+        "hold_mean": 110.82
+      },
+      {
+        "byte": 34,
+        "delta_mean": 11.86,
+        "baseline_mean": 98.75,
+        "hold_mean": 110.61
+      },
+      {
+        "byte": 4,
+        "delta_mean": 11.8,
+        "baseline_mean": 126.16,
+        "hold_mean": 137.96
+      },
+      {
+        "byte": 33,
+        "delta_mean": -11.66,
+        "baseline_mean": 90.24,
+        "hold_mean": 78.58
+      },
+      {
+        "byte": 32,
+        "delta_mean": -11.61,
+        "baseline_mean": 92.43,
+        "hold_mean": 80.82
+      },
+      {
+        "byte": 24,
+        "delta_mean": 10.75,
+        "baseline_mean": 98.61,
+        "hold_mean": 109.36
+      },
+      {
+        "byte": 28,
+        "delta_mean": 6.24,
+        "baseline_mean": 118.3,
+        "hold_mean": 124.54
+      },
+      {
+        "byte": 36,
+        "delta_mean": -5.68,
+        "baseline_mean": 228.23,
+        "hold_mean": 222.55
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": 797.9,
+        "baseline_mean": 29862.5,
+        "hold_mean": 30660.4
+      },
+      {
+        "lo": 42,
+        "hi": 43,
+        "delta_mean": -57.2,
+        "baseline_mean": -2942.5,
+        "hold_mean": -2999.7
+      }
+    ]
+  },
+  "RIGHT_PAD_PRESS": {
+    "baseline_samples": 438,
+    "hold_samples": 688,
+    "bit_changes": [
+      {
+        "byte": 42,
+        "bit": 4,
+        "delta": -0.553,
+        "baseline_p1": 0.897,
+        "hold_p1": 0.344
+      },
+      {
+        "byte": 5,
+        "bit": 1,
+        "delta": 0.491,
+        "baseline_p1": 0.244,
+        "hold_p1": 0.735
+      },
+      {
+        "byte": 40,
+        "bit": 4,
+        "delta": 0.461,
+        "baseline_p1": 0.226,
+        "hold_p1": 0.688
+      },
+      {
+        "byte": 40,
+        "bit": 5,
+        "delta": 0.413,
+        "baseline_p1": 0.224,
+        "hold_p1": 0.637
+      },
+      {
+        "byte": 40,
+        "bit": 6,
+        "delta": 0.369,
+        "baseline_p1": 0.224,
+        "hold_p1": 0.593
+      },
+      {
+        "byte": 40,
+        "bit": 7,
+        "delta": -0.369,
+        "baseline_p1": 0.776,
+        "hold_p1": 0.407
+      },
+      {
+        "byte": 4,
+        "bit": 7,
+        "delta": -0.308,
+        "baseline_p1": 0.68,
+        "hold_p1": 0.372
+      },
+      {
+        "byte": 42,
+        "bit": 3,
+        "delta": 0.296,
+        "baseline_p1": 0.103,
+        "hold_p1": 0.398
+      },
+      {
+        "byte": 36,
+        "bit": 5,
+        "delta": -0.246,
+        "baseline_p1": 0.856,
+        "hold_p1": 0.61
+      },
+      {
+        "byte": 27,
+        "bit": 0,
+        "delta": 0.244,
+        "baseline_p1": 0.128,
+        "hold_p1": 0.372
+      },
+      {
+        "byte": 27,
+        "bit": 1,
+        "delta": -0.244,
+        "baseline_p1": 0.872,
+        "hold_p1": 0.628
+      },
+      {
+        "byte": 26,
+        "bit": 7,
+        "delta": 0.236,
+        "baseline_p1": 0.114,
+        "hold_p1": 0.35
+      },
+      {
+        "byte": 38,
+        "bit": 5,
+        "delta": -0.232,
+        "baseline_p1": 0.763,
+        "hold_p1": 0.531
+      },
+      {
+        "byte": 5,
+        "bit": 2,
+        "delta": 0.215,
+        "baseline_p1": 0.612,
+        "hold_p1": 0.827
+      },
+      {
+        "byte": 36,
+        "bit": 2,
+        "delta": -0.204,
+        "baseline_p1": 0.63,
+        "hold_p1": 0.426
+      }
+    ],
+    "byte_changes": [
+      {
+        "byte": 4,
+        "delta_mean": -40.47,
+        "baseline_mean": 149.48,
+        "hold_mean": 109.0
+      },
+      {
+        "byte": 26,
+        "delta_mean": 38.59,
+        "baseline_mean": 64.84,
+        "hold_mean": 103.43
+      },
+      {
+        "byte": 34,
+        "delta_mean": 33.59,
+        "baseline_mean": 44.56,
+        "hold_mean": 78.15
+      },
+      {
+        "byte": 35,
+        "delta_mean": 33.59,
+        "baseline_mean": 44.25,
+        "hold_mean": 77.83
+      },
+      {
+        "byte": 61,
+        "delta_mean": -31.13,
+        "baseline_mean": 143.8,
+        "hold_mean": 112.67
+      },
+      {
+        "byte": 60,
+        "delta_mean": -29.56,
+        "baseline_mean": 142.92,
+        "hold_mean": 113.35
+      },
+      {
+        "byte": 63,
+        "delta_mean": 13.62,
+        "baseline_mean": 34.93,
+        "hold_mean": 48.55
+      },
+      {
+        "byte": 62,
+        "delta_mean": 13.29,
+        "baseline_mean": 36.07,
+        "hold_mean": 49.36
+      },
+      {
+        "byte": 24,
+        "delta_mean": 12.92,
+        "baseline_mean": 56.83,
+        "hold_mean": 69.75
+      },
+      {
+        "byte": 42,
+        "delta_mean": -12.08,
+        "baseline_mean": 50.37,
+        "hold_mean": 38.29
+      },
+      {
+        "byte": 36,
+        "delta_mean": -5.37,
+        "baseline_mean": 227.14,
+        "hold_mean": 221.77
+      },
+      {
+        "byte": 30,
+        "delta_mean": -4.24,
+        "baseline_mean": 135.98,
+        "hold_mean": 131.74
+      },
+      {
+        "byte": 31,
+        "delta_mean": -4.07,
+        "baseline_mean": 135.65,
+        "hold_mean": 131.58
+      },
+      {
+        "byte": 38,
+        "delta_mean": -4.06,
+        "baseline_mean": 101.15,
+        "hold_mean": 97.08
+      },
+      {
+        "byte": 50,
+        "delta_mean": -3.53,
+        "baseline_mean": 148.71,
+        "hold_mean": 145.18
+      },
+      {
+        "byte": 25,
+        "delta_mean": 3.35,
+        "baseline_mean": 24.45,
+        "hold_mean": 27.8
+      }
+    ],
+    "s16_changes": [
+      {
+        "lo": 4,
+        "hi": 5,
+        "delta_mean": -10537.6,
+        "baseline_mean": 31727.5,
+        "hold_mean": 21189.9
+      }
+    ]
+  }
+}

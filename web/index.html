@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Imperium Deck Client Monitor</title>
+  <style>
+    :root {
+      --bg: #101821;
+      --panel: #162433;
+      --ink: #e8f1ff;
+      --muted: #9bb6d1;
+      --accent: #26c485;
+      --warn: #f4b400;
+      --danger: #ff5f56;
+      --border: #27415a;
+      --mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+      --sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--sans);
+      background: radial-gradient(circle at 15% 10%, #1d3650, var(--bg) 45%);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+      display: grid;
+      gap: 1rem;
+    }
+
+    .panel {
+      background: linear-gradient(180deg, #1a2c3f, var(--panel));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 1.3rem;
+      letter-spacing: 0.03em;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      align-items: center;
+      margin-top: 0.8rem;
+    }
+
+    button {
+      border: 1px solid var(--border);
+      color: var(--ink);
+      background: #1b3147;
+      padding: 0.45rem 0.7rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    button:hover { border-color: var(--accent); }
+    button.danger { border-color: #7b3030; background: #402226; }
+
+    .status {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-left: auto;
+    }
+
+    .grid {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .device {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.6rem;
+      background: #152637;
+    }
+
+    .device label {
+      display: block;
+      font-size: 0.88rem;
+      color: var(--muted);
+    }
+
+    .tag {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 0.8rem;
+      padding: 0.15rem 0.4rem;
+      border-radius: 999px;
+      background: #213950;
+      color: #bdd8f3;
+      margin-right: 0.2rem;
+      margin-top: 0.2rem;
+    }
+
+    .mono { font-family: var(--mono); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: var(--mono);
+      font-size: 0.82rem;
+    }
+
+    th, td {
+      border-bottom: 1px solid #23384d;
+      text-align: left;
+      padding: 0.35rem;
+      vertical-align: top;
+    }
+
+    th { color: #a7c6e3; }
+    .ok { color: var(--accent); }
+    .warn { color: var(--warn); }
+    .danger { color: var(--danger); }
+
+    .scroll {
+      max-height: 360px;
+      overflow: auto;
+    }
+
+    @media (max-width: 700px) {
+      .status { margin-left: 0; width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="panel">
+      <h1>Imperium Deck Client Monitor</h1>
+      <div class="row">
+        <button id="refreshDevices">Refresh Devices</button>
+        <button id="startSelected">Start Selected</button>
+        <button id="startDefault">Start Default</button>
+        <button id="stopAll" class="danger">Stop</button>
+        <div class="status mono" id="status">connecting...</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h1>Devices</h1>
+      <div id="devices" class="grid"></div>
+    </div>
+
+    <div class="panel">
+      <h1>Recent Events</h1>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>time</th>
+              <th>device</th>
+              <th>type</th>
+              <th>code</th>
+              <th>value</th>
+            </tr>
+          </thead>
+          <tbody id="events"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h1>Live State</h1>
+      <div class="scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>device</th>
+              <th>buttons</th>
+              <th>axes</th>
+            </tr>
+          </thead>
+          <tbody id="state"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const statusEl = document.getElementById('status');
+    const devicesEl = document.getElementById('devices');
+    const eventsEl = document.getElementById('events');
+    const stateEl = document.getElementById('state');
+
+    let ws;
+    let devices = [];
+    const eventBuffer = [];
+    const liveState = {};
+    const labelMap = {
+      A: 'A Button',
+      B: 'B Button',
+      X: 'X Button',
+      Y: 'Y Button',
+      L1: 'Left Shoulder (L1)',
+      R1: 'Right Shoulder (R1)',
+      L2_BTN: 'Left Trigger Button (L2)',
+      R2_BTN: 'Right Trigger Button (R2)',
+      L2: 'Left Trigger (L2)',
+      R2: 'Right Trigger (R2)',
+      L3: 'Left Stick Click (L3)',
+      R3: 'Right Stick Click (R3)',
+      L4: 'Rear Left Upper Paddle (L4)',
+      L5: 'Rear Left Lower Paddle (L5)',
+      R4: 'Rear Right Upper Paddle (R4)',
+      R5: 'Rear Right Lower Paddle (R5)',
+      DPAD_UP: 'D-Pad Up',
+      DPAD_RIGHT: 'D-Pad Right',
+      DPAD_DOWN: 'D-Pad Down',
+      DPAD_LEFT: 'D-Pad Left',
+      MENU: 'Menu Button',
+      STEAM: 'Steam Button',
+      QAM: 'Quick Access Button',
+      LEFT_PAD_TOUCH: 'Left Touchpad Touch',
+      RIGHT_PAD_TOUCH: 'Right Touchpad Touch',
+      LEFT_PAD_PRESS: 'Left Touchpad Click',
+      RIGHT_PAD_PRESS: 'Right Touchpad Click',
+      LEFT_STICK_TOUCH: 'Left Stick Touch',
+      RIGHT_STICK_TOUCH: 'Right Stick Touch',
+      LEFT_STICK_X: 'Left Stick X',
+      LEFT_STICK_Y: 'Left Stick Y',
+      RIGHT_STICK_X: 'Right Stick X',
+      RIGHT_STICK_Y: 'Right Stick Y',
+      LEFT_PAD_X: 'Left Touchpad X',
+      LEFT_PAD_Y: 'Left Touchpad Y',
+      RIGHT_PAD_X: 'Right Touchpad X',
+      RIGHT_PAD_Y: 'Right Touchpad Y',
+      BTN_SOUTH: 'A Button',
+      BTN_EAST: 'B Button',
+      BTN_NORTH: 'Y Button',
+      BTN_WEST: 'X Button',
+      BTN_TL: 'Left Shoulder (L1)',
+      BTN_TR: 'Right Shoulder (R1)',
+      BTN_TL2: 'Left Trigger (L2)',
+      BTN_TR2: 'Right Trigger (R2)',
+      BTN_SELECT: 'Menu Button',
+      BTN_MODE: 'Steam Button',
+      BTN_START: 'Quick Access Button',
+      ABS_HAT0X: 'D-Pad X',
+      ABS_HAT0Y: 'D-Pad Y',
+    };
+
+    function prettyLabel(k) {
+      return labelMap[k] || k;
+    }
+
+    function fmtTime(ts) {
+      const d = new Date(ts * 1000);
+      return d.toLocaleTimeString();
+    }
+
+    function selectedPaths() {
+      return [...document.querySelectorAll('input[name=device]:checked')].map(i => i.value);
+    }
+
+    async function fetchDevices() {
+      const res = await fetch('/api/devices');
+      const data = await res.json();
+      devices = data.devices || [];
+      const defaults = new Set(data.default || []);
+      devicesEl.innerHTML = '';
+      for (const dev of devices) {
+        const box = document.createElement('div');
+        box.className = 'device';
+
+        const checked = defaults.has(dev.path) ? 'checked' : '';
+        const caps = (dev.capabilities || []).slice(0, 8).map(c => `<span class="tag">${c}</span>`).join('');
+
+        box.innerHTML = `
+          <label><input type="checkbox" name="device" value="${dev.path}" ${checked}> <strong>${dev.name || 'unknown'}</strong></label>
+          <div class="mono">${dev.path || ''}</div>
+          <div class="mono">uniq: ${dev.uniq || '-'}</div>
+          <div>${caps}</div>
+        `;
+        devicesEl.appendChild(box);
+      }
+    }
+
+    async function postJSON(url, body) {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(body || {})
+      });
+      return res.json();
+    }
+
+    function renderEvents() {
+      eventsEl.innerHTML = eventBuffer.slice(-150).reverse().map(e => `
+        <tr>
+          <td>${fmtTime(e.timestamp)}</td>
+          <td class="mono">${(e.device_name || '').slice(0, 28)}</td>
+          <td>${e.event_type_name || ''}</td>
+          <td class="mono">${prettyLabel(e.code_name || e.code)}</td>
+          <td class="mono">${e.value}</td>
+        </tr>`).join('');
+    }
+
+    function renderState() {
+      const rows = [];
+      for (const [device, val] of Object.entries(liveState)) {
+        const activeButtons = Object.entries(val.buttons || {})
+          .filter(([, v]) => v !== 0)
+          .map(([k, v]) => `${prettyLabel(k)}:${v}`)
+          .join(' ');
+        const nonZeroAxes = Object.entries(val.axes || {})
+          .filter(([, v]) => v !== 0)
+          .map(([k, v]) => `${prettyLabel(k)}:${v}`)
+          .join(' ');
+        rows.push(`
+          <tr>
+            <td class="mono">${device}</td>
+            <td class="mono">${activeButtons || '-'}</td>
+            <td class="mono">${nonZeroAxes || '-'}</td>
+          </tr>
+        `);
+      }
+      stateEl.innerHTML = rows.join('');
+    }
+
+    function connectWS() {
+      const protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+      ws = new WebSocket(`${protocol}://${location.host}/ws/events`);
+
+      ws.onopen = () => {
+        statusEl.innerHTML = '<span class="ok">ws connected</span>';
+        setInterval(() => {
+          if (ws.readyState === WebSocket.OPEN) ws.send('ping');
+        }, 15000);
+      };
+
+      ws.onmessage = (msg) => {
+        try {
+          const data = JSON.parse(msg.data);
+          eventBuffer.push(data);
+          if (eventBuffer.length > 5000) eventBuffer.shift();
+
+          const key = data.device_path || 'unknown';
+          if (!liveState[key]) liveState[key] = { buttons: {}, axes: {} };
+          if (data.event_type_name === 'EV_KEY') {
+            liveState[key].buttons[data.code_name] = data.value;
+          } else if (data.event_type_name === 'EV_ABS') {
+            liveState[key].axes[data.code_name] = data.value;
+          } else if (data.event_type_name === 'HIDRAW' && data.decoded) {
+            for (const [k, v] of Object.entries(data.decoded)) {
+              if (k.endsWith('_X') || k.endsWith('_Y')) {
+                liveState[key].axes[k] = v;
+              } else {
+                liveState[key].buttons[k] = v;
+              }
+            }
+          }
+
+          renderEvents();
+          renderState();
+        } catch (err) {
+          console.error(err);
+        }
+      };
+
+      ws.onclose = () => {
+        statusEl.innerHTML = '<span class="warn">ws disconnected, retrying...</span>';
+        setTimeout(connectWS, 1200);
+      };
+
+      ws.onerror = () => {
+        statusEl.innerHTML = '<span class="danger">ws error</span>';
+      };
+    }
+
+    document.getElementById('refreshDevices').onclick = fetchDevices;
+    document.getElementById('startSelected').onclick = async () => {
+      const paths = selectedPaths();
+      await postJSON('/api/start', { device_paths: paths });
+      statusEl.innerHTML = `<span class="ok">started ${paths.length} selected devices</span>`;
+    };
+
+    document.getElementById('startDefault').onclick = async () => {
+      await postJSON('/api/start', { device_paths: [] });
+      statusEl.innerHTML = '<span class="ok">started default devices</span>';
+    };
+
+    document.getElementById('stopAll').onclick = async () => {
+      await postJSON('/api/stop', {});
+      statusEl.innerHTML = '<span class="warn">reader stopped</span>';
+    };
+
+    (async () => {
+      await fetchDevices();
+      connectWS();
+    })();
+  </script>
+</body>
+</html>
