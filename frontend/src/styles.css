@@ -103,6 +103,11 @@ button:disabled { opacity: 0.7; cursor: not-allowed; }
   background: linear-gradient(90deg, var(--accent-bg), #17293a);
 }
 
+.focusedRow {
+  outline: 2px solid #7fd4ff;
+  outline-offset: 1px;
+}
+
 @media (max-width: 780px) {
   .status {
     margin-left: 0;

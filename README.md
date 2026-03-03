@@ -96,9 +96,9 @@ npm install
 npm run build
 ```
 
-## Native UI (Tauri Wrapper)
+## Native UI (Desktop Wrapper)
 
-This repo also includes a native wrapper app under `native-ui/` that embeds the local client UI (`http://127.0.0.1:8765`) in a native window.
+This repo includes a native wrapper app under `native-ui/` that embeds the local client UI (`http://127.0.0.1:8765`) in a native window.
 
 On Steam Deck:
 
@@ -111,7 +111,10 @@ Then launch via desktop shortcut:
 
 - `~/Desktop/Imperium Deck Client.desktop`
 
-If the native AppImage is not available, the launcher falls back to opening the browser UI.
+Build behavior:
+- First tries a Tauri AppImage build.
+- If Tauri build dependencies are not available on the Deck image, automatically falls back to a native Electron wrapper (`nativefier`).
+- If neither native artifact is available, launcher falls back to opening the browser UI.
 
 ## API Endpoint
 
