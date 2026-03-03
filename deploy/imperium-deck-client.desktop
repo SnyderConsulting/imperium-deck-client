@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Imperium Deck Client
+Comment=Launch Imperium Deck Client
+Exec=bash -lc '%h/apps/imperium-deck-client/scripts/launch_native_ui.sh'
+Icon=applications-internet
+Terminal=false
+Categories=Utility;Game;
+StartupNotify=true

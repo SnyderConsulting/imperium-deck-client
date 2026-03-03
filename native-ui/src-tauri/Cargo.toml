@@ -1,0 +1,21 @@
+[package]
+name = "imperium-deck-client-native"
+version = "0.1.0"
+description = "Native wrapper for Imperium Deck Client"
+authors = ["Snyder Consulting"]
+license = "MIT"
+repository = "https://github.com/SnyderConsulting/imperium-deck-client"
+edition = "2021"
+rust-version = "1.77"
+
+[build-dependencies]
+tauri-build = { version = "1.5", features = [] }
+
+[dependencies]
+tauri = { version = "1.8", features = ["window-all", "shell-open"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]

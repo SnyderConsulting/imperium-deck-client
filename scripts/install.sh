@@ -7,6 +7,9 @@ SERVICE_NAME="${APP_NAME}.service"
 SERVICE_SRC_REL="deploy/${SERVICE_NAME}"
 SERVICE_DEST_DIR="${HOME}/.config/systemd/user"
 SERVICE_DEST="${SERVICE_DEST_DIR}/${SERVICE_NAME}"
+DESKTOP_SRC_REL="deploy/imperium-deck-client.desktop"
+DESKTOP_DEST_DIR="${HOME}/Desktop"
+DESKTOP_DEST="${DESKTOP_DEST_DIR}/Imperium Deck Client.desktop"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)"
@@ -36,10 +39,20 @@ cd "${INSTALL_DIR}"
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
-python -m pip install -r requirements.txt
+if ! python -m pip install -r requirements.txt; then
+  echo "Primary dependency install failed; retrying with evdev-binary fallback."
+  TMP_REQ="$(mktemp)"
+  grep -v '^evdev' requirements.txt > "${TMP_REQ}"
+  python -m pip install -r "${TMP_REQ}"
+  python -m pip install evdev-binary
+  rm -f "${TMP_REQ}"
+fi
 
 mkdir -p "${SERVICE_DEST_DIR}"
 cp "${SERVICE_SRC_REL}" "${SERVICE_DEST}"
+mkdir -p "${DESKTOP_DEST_DIR}"
+cp "${DESKTOP_SRC_REL}" "${DESKTOP_DEST}"
+chmod +x "${DESKTOP_DEST}"
 
 systemctl --user daemon-reload
 systemctl --user enable --now "${SERVICE_NAME}"

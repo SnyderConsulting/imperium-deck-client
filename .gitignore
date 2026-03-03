@@ -3,3 +3,5 @@ __pycache__/
 .venv/
 .DS_Store
 frontend/node_modules/
+native-ui/node_modules/
+native-ui/src-tauri/target/
